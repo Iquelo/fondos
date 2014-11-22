@@ -1,0 +1,2559 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: WPJobus\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Alex Gurghis <agurghis@yahoo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#. Text in function
+#: comments.php:40
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. Text in echo
+#: comments.php:39
+msgid "Comment navigation"
+msgstr ""
+
+#. Text in echo
+#: comments.php:46
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in echo
+#: 404.php:27
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#. Text in echo
+#: content-none.php:22
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
+#. Text in function
+#: comments.php:41
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. Text in echo
+#: 404.php:16
+msgid "Not found"
+msgstr ""
+
+#. Text in echo
+#: content-none.php:8
+msgid "Nothing Found"
+msgstr ""
+
+#. Text in function
+#: content-none.php:14
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. Text in echo
+#: content-none.php:18
+msgid "Sorry, but nothing matched your search terms."
+msgstr ""
+
+#. Text in echo
+#: 404.php:26
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#. Text in function
+#: inc/class-tgm-plugin-activation.php:1
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. Text in function
+#: inc/class-tgm-plugin-activation.php:1
+msgid "Dismiss this notice"
+msgstr ""
+
+#. Text in function
+#: inc/class-tgm-plugin-activation.php:1 functions.php:910
+msgid "Install Plugins"
+msgstr ""
+
+#. Text in function
+#: inc/class-tgm-plugin-activation.php:1 functions.php:910
+msgid "Install Required Plugins"
+msgstr ""
+
+#. Text in function
+#: inc/class-tgm-plugin-activation.php:1 functions.php:910
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. Text in function
+#: inc/class-tgm-plugin-activation.php:1 functions.php:910
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. Text in function
+#: inc/class-tgm-plugin-activation.php:1 functions.php:910
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#. Text in function
+#: inc/class-tgm-plugin-activation.php:1
+msgid "Return to the dashboard"
+msgstr ""
+
+#. Text in function
+#: inc/class-tgm-plugin-activation.php:1
+msgid "Something went wrong."
+msgstr ""
+
+#. Text in function
+#: inc/class-tgm-plugin-activation.php:1
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. Text in function
+#: category.php:12
+msgid " %s"
+msgstr ""
+
+#. Text in echo
+#: functions.php:715
+msgid "@"
+msgstr ""
+
+#. Text in echo
+#: functions.php:715
+msgid "Followers "
+msgstr ""
+
+#. Text in echo
+#: functions.php:708
+msgid "Joined "
+msgstr ""
+
+#. Text in function
+#: functions.php:910
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#. Text in function
+#: functions.php:910
+msgid "Footer menu"
+msgstr ""
+
+#. Text in function
+#: functions.php:910
+msgid "Main menu"
+msgstr ""
+
+#. Text in function
+#: functions.php:769
+msgid "Number Of Tweets:"
+msgstr ""
+
+#. Text in function
+#: functions.php:910
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. Text in function
+#: archive.php:19
+msgid "Tag: "
+msgstr ""
+
+#. Text in function
+#: functions.php:910
+msgid "Top menu"
+msgstr ""
+
+#. Text in function
+#. Text in echo
+#: functions.php:910 functions.php:718 template-single-resume.php:1072
+#: template-single-company.php:933 template-contact.php:304
+#: template-single-job.php:907
+msgid "Twitter"
+msgstr ""
+
+#. Text in function
+#: functions.php:890
+msgid "Twitter Consumer Key:"
+msgstr ""
+
+#. Text in function
+#: functions.php:895
+msgid "Twitter Consumer Secret:"
+msgstr ""
+
+#. Text in function
+#: functions.php:885
+msgid "Twitter ID:"
+msgstr ""
+
+#. Text in echo
+#: functions.php:738
+msgid "Twitter Title:"
+msgstr ""
+
+#. Text in function
+#: functions.php:905
+msgid "Twitter User Secret:"
+msgstr ""
+
+#. Text in function
+#: functions.php:900
+msgid "Twitter User Token:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:632 template-edit-job.php:515
+#: template-edit-resume.php:717 template-add-job.php:490
+msgid "%(1 to 100 value)"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:287 template-single-job.php:242
+msgid "(Native)"
+msgstr ""
+
+#. Text in function
+#: functions.php:3310
+msgid ", "
+msgstr ""
+
+#. Text in function
+#: functions.php:3270
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:506
+msgid "A Brief Overview of the Company which posted this job offer"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:123 template-single-resume.php:135
+msgid "About"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:264 template-edit-resume.php:349
+msgid "About Me:"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:79
+msgid "Account Settings"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:499
+msgid "Account updated successful."
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:1311
+msgid "Activate Company"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:404
+msgid "Activate Resume"
+msgstr ""
+
+#. Text in echo
+#: template-add-job.php:59
+msgid "Add Company"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:612 template-add-company.php:36
+msgid "Add Company Profile"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:1049 template-add-job.php:78
+msgid "Add Job Offer"
+msgstr ""
+
+#. Text in function
+#: header.php:272
+msgid "Add New"
+msgstr ""
+
+#. Text in function
+#: inc/company.php:1
+msgid "Add New Company"
+msgstr ""
+
+#. Text in function
+#: inc/job.php:1
+msgid "Add New Job"
+msgstr ""
+
+#. Text in function
+#: inc/quotes.php:1
+msgid "Add New Quote"
+msgstr ""
+
+#. Text in function
+#: inc/resume.php:1
+msgid "Add New Resume"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:440
+msgid "Add Resume"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:36
+msgid "Add Your Resume"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1343 template-edit-resume.php:1428
+msgid "Add new award"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:1043 template-add-job.php:1018
+msgid "Add new benefit"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:761 template-add-company.php:681
+msgid "Add new client"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1173 template-edit-resume.php:1258
+msgid "Add new institution"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:968 template-edit-job.php:851
+#: template-edit-resume.php:1053 template-add-job.php:826
+msgid "Add new language"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1547 template-edit-resume.php:1632
+msgid "Add new organisation"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2208 template-edit-company.php:1347
+#: template-edit-resume.php:2293 template-add-company.php:1265
+msgid "Add new project"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:556 template-add-company.php:476
+msgid "Add new service"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:761 template-edit-job.php:644
+#: template-edit-resume.php:846 template-add-job.php:619
+msgid "Add new skill"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1839 template-edit-company.php:1053
+#: template-edit-resume.php:1924 template-add-company.php:973
+msgid "Add new testimonial"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:619 template-my-account.php:1058
+msgid "Added"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:862 template-add-job.php:837
+msgid "Additional Requirements:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2227 template-edit-company.php:1366
+#: template-edit-job.php:1062 template-edit-resume.php:2312
+#: template-add-job.php:1037 template-add-company.php:1284
+msgid "Address:"
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:391
+msgid "Aditional Requirements"
+msgstr ""
+
+#. Text in echo
+#: search.php:202 template-single-resume.php:669
+#: template-single-company.php:530
+msgid "All"
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:563
+msgid "All Categories"
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:697
+msgid "All Companies"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:619 template-companies.php:593 template-jobs.php:722
+msgid "All Locations"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:589 template-resumes.php:725
+#: template-companies.php:722 template-jobs.php:586 template-jobs.php:692
+msgid "All Types"
+msgstr ""
+
+#. Text in function
+#: functions.php:1257
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#. Text in function
+#: functions.php:1257
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:687
+msgid "Apply for this job"
+msgstr ""
+
+#. Text in echo
+#: template-pendings.php:173
+msgid "Approve"
+msgstr ""
+
+#. Text in echo
+#: template-add-job.php:53
+msgid "Attention!"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1200 template-add-resume.php:1277
+#: template-edit-resume.php:1285 template-edit-resume.php:1362
+msgid "Award"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1180 template-edit-resume.php:1265
+msgid "Awards"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:498
+msgid "Awards & Honors"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:456 template-edit-resume.php:541
+msgid "Be descriptive and creative on your skills."
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:969 template-edit-job.php:1012
+#: template-add-job.php:944 template-add-job.php:987
+msgid "Benefit"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:1028 template-add-job.php:1003
+msgid "Benefit Description:"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:1016 template-add-job.php:991
+msgid "Benefit Name:"
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:446
+msgid "Benefits"
+msgstr ""
+
+#. Text in echo
+#: archive.php:21
+msgid "Blog Archives: "
+msgstr ""
+
+#. Text in function
+#: functions.php:1257
+msgid "Blog Widget Area"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:182 template-edit-resume.php:267
+msgid "CV File (PDF, doc)"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:584 template-jobs.php:551 template-single-job.php:165
+msgid "Career Level"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:483 template-edit-job.php:128
+#: template-edit-resume.php:568 template-add-job.php:103
+msgid "Career Level:"
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:558
+msgid "Categories"
+msgstr ""
+
+#. Text in echo
+#: category.php:12
+msgid "Category"
+msgstr ""
+
+#. Text in echo
+#: search.php:175 template-add-resume.php:2103 template-edit-company.php:188
+#: template-edit-company.php:1242 template-edit-resume.php:2188
+#: template-add-company.php:108 template-add-company.php:1160
+msgid "Category:"
+msgstr ""
+
+#. Text in echo
+#: template-reset.php:59
+msgid "Check your email for new password."
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:602 template-edit-company.php:687
+#: template-add-company.php:522 template-add-company.php:607
+msgid "Client"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:694 template-add-company.php:614
+msgid "Client Name"
+msgstr ""
+
+#. Text in function
+#: inc/clients.php:1 template-edit-company.php:582
+#: template-single-company.php:128 template-single-company.php:139
+#: template-single-company.php:389 template-add-company.php:502
+msgid "Clients"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:732 template-add-company.php:652
+msgid "Client’s Website:"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:237 template-single-job.php:192
+msgid "Communication"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:513 template-edit-job.php:396
+#: template-edit-resume.php:598 template-add-job.php:371
+msgid "Communication level:"
+msgstr ""
+
+#. Text in echo
+#: header.php:108 template-single-company.php:110
+msgid "Companies"
+msgstr ""
+
+#. Text in echo
+#: template-pendings.php:110 header.php:108 header.php:289
+#: template-my-account.php:998 template-my-account.php:1056
+msgid "Company"
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:505
+msgid "Company Information"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:128 template-add-company.php:48
+msgid "Company Name:"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:1656 template-add-company.php:1574
+msgid "Company Profile Saved Successful."
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:611
+msgid "Company Profiles"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:236 template-add-job.php:211
+msgid "Company:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1296 template-edit-resume.php:1381
+msgid "Competition Name:"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:128 template-single-resume.php:140
+#: template-single-company.php:130 template-single-company.php:141
+msgid "Contact"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:972 template-add-resume.php:2215
+#: template-edit-company.php:1354 template-edit-job.php:1050
+#: template-edit-resume.php:2300 template-single-company.php:833
+#: template-contact.php:234 template-add-job.php:1025
+#: template-single-job.php:801 template-add-company.php:1272
+msgid "Contact Details"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:858 template-single-company.php:719
+msgid "Contact Form"
+msgstr ""
+
+#. Text in echo
+#: template-contact.php:120
+msgid "Contact Us"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:541 template-add-company.php:461
+msgid "Content:"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:706 template-add-company.php:626
+msgid "Contracted for doing:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:378 template-edit-company.php:348
+#: template-edit-job.php:307 template-edit-resume.php:463
+#: template-add-job.php:282 template-add-company.php:268
+msgid "Cover Image:"
+msgstr ""
+
+#. Text in echo
+#: search.php:151
+msgid "Cuisine:"
+msgstr ""
+
+#. Text in function
+#: archive.php:13
+msgid "Daily Archives: %s"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:76 template-edit-resume.php:161
+msgid "Date of birth:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:962 template-add-resume.php:1167
+#: template-add-resume.php:1337 template-add-resume.php:1541
+#: template-add-resume.php:1833 template-add-resume.php:2202
+#: template-my-account.php:627 template-my-account.php:1066
+#: template-edit-company.php:550 template-edit-company.php:755
+#: template-edit-company.php:1047 template-edit-company.php:1341
+#: template-edit-job.php:845 template-edit-resume.php:1047
+#: template-edit-resume.php:1252 template-edit-resume.php:1422
+#: template-edit-resume.php:1626 template-edit-resume.php:1918
+#: template-edit-resume.php:2287 template-add-job.php:820
+#: template-add-company.php:470 template-add-company.php:675
+#: template-add-company.php:967 template-add-company.php:1259
+msgid "Delete"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:1037 template-add-job.php:1012
+msgid "Delete Benefit"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:755 template-edit-job.php:638
+#: template-edit-resume.php:840 template-add-job.php:613
+msgid "Delete Skill"
+msgstr ""
+
+#. Text in function
+#: functions.php:3310
+msgid "Demo Content"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:426 template-add-company.php:346
+msgid "Describe your services and expertise."
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:234 template-add-company.php:154
+msgid "Description:"
+msgstr ""
+
+#. Text in echo
+#: search.php:127
+msgid "Difficulty:"
+msgstr ""
+
+#. Text in echo
+#: search.php:381
+msgid "Discover Recipe"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:212
+msgid "Download Resume"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:569
+msgid "E-mail updated successful."
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:503
+msgid "EST. IN"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:625 template-my-account.php:1064
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: inc/company.php:1
+msgid "Edit Company"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:116
+msgid "Edit Company Profile"
+msgstr ""
+
+#. Text in function
+#: inc/job.php:1
+msgid "Edit Job"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:103
+msgid "Edit Job Offer"
+msgstr ""
+
+#. Text in function
+#: inc/quotes.php:1
+msgid "Edit Quote"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:432 inc/resume.php:1
+msgid "Edit Resume"
+msgstr ""
+
+#. Text in echo
+#: template-edit-resume.php:121
+msgid "Edit Your Resume"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:125 template-single-resume.php:137
+#: template-single-resume.php:466 template-add-resume.php:994
+#: template-edit-resume.php:1079
+msgid "Education"
+msgstr ""
+
+#. Text in echo
+#: template-register.php:165
+msgid "Email exists. Please try another one."
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:870 template-single-company.php:731
+#: template-contact.php:132 template-single-job.php:699
+msgid "Email*"
+msgstr ""
+
+#. Text in echo
+#: template-register.php:45 template-add-resume.php:2263 template-reset.php:38
+#: template-my-account.php:461 template-edit-company.php:1402
+#: template-edit-job.php:1098 template-edit-resume.php:2348
+#: template-add-job.php:1073 template-add-company.php:1320
+msgid "Email:"
+msgstr ""
+
+#. Text in echo
+#: inc/companies-filters.php:504 template-companies.php:314
+#: template-single-company.php:172 template-single-job.php:527
+msgid "Est. In"
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:620
+msgid "Established Since"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:706
+msgid "Expected Salary"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:648 template-single-resume.php:126
+#: template-single-resume.php:138 template-jobs.php:615
+msgid "Experience"
+msgstr ""
+
+#. Text in echo
+#: template-single-company.php:254
+msgid "Expertise"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:567 template-add-company.php:487
+msgid "Expertise:"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:1036 template-single-company.php:897
+#: template-contact.php:268 template-single-job.php:871
+msgid "Facebook"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2282 template-edit-company.php:1421
+#: template-edit-job.php:1117 template-edit-resume.php:2367
+#: template-add-job.php:1092 template-add-company.php:1339
+msgid "Facebook:"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:631 template-my-account.php:1070
+msgid "Feature"
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:427
+msgid "Featured Companies!"
+msgstr ""
+
+#. Text in echo
+#: template-jobs.php:442
+msgid "Featured Jobs!"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:430
+msgid "Featured Resumes!"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:1419
+msgid "Featured for"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:1346 template-my-account.php:1446
+msgid "Featured until"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:995 template-edit-resume.php:1080
+msgid "Fill in the education related info using the fields below."
+msgstr ""
+
+#. Text in function
+#: functions.php:1257
+msgid "Footer Widget Area Four"
+msgstr ""
+
+#. Text in function
+#: functions.php:1257
+msgid "Footer Widget Area One"
+msgstr ""
+
+#. Text in function
+#: functions.php:1257
+msgid "Footer Widget Area Three"
+msgstr ""
+
+#. Text in function
+#: functions.php:1257
+msgid "Footer Widget Area Two"
+msgstr ""
+
+#. Text in echo
+#: template-login.php:60
+msgid "Forgot Password"
+msgstr ""
+
+#. Text in function
+#: functions.php:1257
+msgid "Forum Widget Area"
+msgstr ""
+
+#. Text in echo
+#: forum.php:12
+msgid "Forums"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:153 template-add-company.php:73
+msgid "Foundation Year:"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:710 template-companies.php:682 template-jobs.php:677
+msgid "From"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:48 template-add-resume.php:1723
+#: template-edit-company.php:937 template-edit-resume.php:133
+#: template-edit-resume.php:1808 template-add-company.php:857
+msgid "Full Name:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:61 template-edit-resume.php:146
+msgid "Gender:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2332 template-edit-company.php:1471
+#: template-edit-job.php:1167 template-edit-resume.php:2417
+#: template-add-job.php:1142 template-add-company.php:1389
+msgid "Google Maps Address:"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:1090 template-single-company.php:951
+#: template-contact.php:322 template-single-job.php:925
+msgid "Google+"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2318 template-edit-company.php:1457
+#: template-edit-job.php:1153 template-edit-resume.php:2403
+#: template-add-job.php:1128 template-add-company.php:1375
+msgid "Google+:"
+msgstr ""
+
+#. Text in echo
+#: functions.php:3691
+msgid "Great news master!"
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:702
+msgid "Has Job Offer"
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:692
+msgid "Has Job Offers"
+msgstr ""
+
+#. Text in echo
+#: template-pendings.php:25
+msgid "Hello Almighty Master! Take some time and review the pending items."
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:649 template-single-company.php:505
+msgid "Here are some of my works."
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:535
+msgid ""
+"Here’s a list of companies where I worked and gained my professional "
+"experience."
+msgstr ""
+
+#. Text in echo
+#: template-single-company.php:390
+msgid "Here’s a list of companies which are our beloved clients."
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:467
+msgid "Here’s an overview of education institutions I attended."
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:232
+msgid "Here’s an overview of my skills."
+msgstr ""
+
+#. Text in echo
+#: template-single-company.php:227
+msgid "Here’s an overview of the services we provide."
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:187
+msgid "Here’s an overview qualifications you need for this job."
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:593
+msgid "Here’s whar people are saying about me."
+msgstr ""
+
+#. Text in echo
+#: template-single-company.php:452
+msgid "Here’s what clients are saying about our company. "
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:427
+msgid "Here’s what you get."
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:117 template-add-company.php:37
+msgid ""
+"Hey. It’s easier than it looks. Take a deep breath and complete the fields "
+"below. You’ll have a beautifull company page!"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:104 template-add-job.php:79
+msgid ""
+"Hey. It’s easier than it looks. Take a deep breath and complete the fields "
+"below. You’ll have a beautifull job offer!"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:37 template-edit-resume.php:122
+msgid ""
+"Hey. It’s easier than it looks. Take a deep breath and complete the fields "
+"below. You’ll have a beautifull resume page!"
+msgstr ""
+
+#. Text in echo
+#: template-add-job.php:54
+msgid "Hey. You need to add a company profile before posting a job offer!"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:433
+msgid "Hobbies"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:979 template-edit-resume.php:1064
+msgid "Hobbies:"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:122 template-single-resume.php:134
+#: template-single-company.php:125 template-single-company.php:136
+msgid "Home"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:878 template-single-company.php:739
+#: template-contact.php:140 template-single-job.php:707
+msgid "Human test. Please input the result of 5+3=?"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:105
+msgid "I&#39;m"
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:140
+msgid "ID"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:527 template-add-company.php:447
+msgid "Icon code"
+msgstr ""
+
+#. Text in echo
+#: functions.php:3676
+msgid ""
+"If you are new to wordpress or have problems creating posts or pages that "
+"look like the theme preview you can import dummy posts and pages here that "
+"will definitley help to understand how those tasks are done."
+msgstr ""
+
+#. Text in function
+#: inc/clients.php:1 inc/plans.php:1
+msgid "Image"
+msgstr ""
+
+#. Text in echo
+#: functions.php:3680
+msgid "Import Dummy Content"
+msgstr ""
+
+#. Text in echo
+#: functions.php:3675
+msgid "Import Dummy Content: Posts, Pages, Categories"
+msgstr ""
+
+#. Text in echo
+#: functions.php:3693
+msgid "Import failed."
+msgstr ""
+
+#. Text in echo
+#: functions.php:3689
+msgid "Import started."
+msgstr ""
+
+#. Text in echo
+#: functions.php:3691
+msgid ""
+"Import worked out, no problems whatsoever. The page will now be reloaded to "
+"reflect the changes."
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:150
+msgid "Industry"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:140 template-edit-job.php:194
+#: template-edit-resume.php:225 template-add-job.php:169
+msgid "Industry:"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:574 template-add-company.php:494
+msgid "Insert multiple expertise and separate them using commas"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:986 template-edit-resume.php:1071
+msgid "Insert multiple hobbies and separate them using commas"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:869 template-add-job.php:844
+msgid "Insert multiple requirements and separate them using commas"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1099 template-edit-resume.php:1184
+msgid "Institution"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1106 template-edit-resume.php:1191
+msgid "Institution Name"
+msgstr ""
+
+#. Text in echo
+#: search.php:201
+msgid "Intended for:"
+msgstr ""
+
+#. Text in echo
+#: template-pendings.php:106 inc/companies-filters.php:540
+#: template-companies.php:350 template-companies.php:509 header.php:62
+#: header.php:275 template-single-company.php:209 template-single-job.php:562
+msgid "Job"
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:99 template-single-job.php:108
+msgid "Job Application"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:271 template-add-job.php:246
+msgid "Job Description:"
+msgstr ""
+
+#. Text in echo
+#: inc/jobs-filters.php:380 template-my-account.php:1418 template-jobs.php:308
+msgid "Job Offer"
+msgstr ""
+
+#. Text in echo
+#: template-add-job.php:1327
+msgid "Job Offer Saved Successful."
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:1352
+msgid "Job Offer Updated Successful."
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:717 template-my-account.php:1048
+#: template-single-company.php:127 template-single-company.php:138
+#: template-single-company.php:279
+msgid "Job Offers"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1483 template-edit-resume.php:1568
+msgid "Job Position:"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:255 template-single-job.php:210
+msgid "Job Related"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:627 template-edit-job.php:510
+#: template-edit-resume.php:712 template-add-job.php:485
+msgid "Job Related level:"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:115 template-add-job.php:90
+msgid "Job Title:"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:928 template-add-job.php:903
+msgid "Job Type:"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:720 template-jobs.php:687
+msgid "Job Types"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:169
+msgid "Job Types I am looking for:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1897 template-edit-resume.php:1982
+msgid "Job Types:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1509 template-edit-resume.php:1594
+msgid "Job type:"
+msgstr ""
+
+#. Text in echo
+#: inc/companies-filters.php:540 template-companies.php:350
+#: template-companies.php:509 header.php:62 template-single-company.php:209
+#: template-single-job.php:81 template-single-job.php:562
+msgid "Jobs"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:805 template-add-resume.php:892
+#: template-edit-job.php:688 template-edit-job.php:775
+#: template-edit-resume.php:890 template-edit-resume.php:977
+#: template-add-job.php:663 template-add-job.php:750
+msgid "Language"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:285 template-single-job.php:240
+msgid "Languages"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2484 template-edit-company.php:1623
+#: template-edit-job.php:1319 template-edit-resume.php:2569
+#: template-add-job.php:1294 template-add-company.php:1541
+msgid "Latitude:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1847 template-edit-resume.php:1932
+msgid "Let companies know your financial expectations."
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1181 template-edit-resume.php:1266
+msgid "Let everybody know how good you are!"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:878 template-add-job.php:853
+msgid "Let people know the benefits you offer."
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1555 template-edit-company.php:769
+#: template-edit-resume.php:1640 template-add-company.php:689
+msgid "Let’s see what are people saying about you."
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:829 template-add-resume.php:847
+#: template-add-resume.php:865 template-add-resume.php:952
+#: template-edit-job.php:712 template-edit-job.php:730
+#: template-edit-job.php:748 template-edit-job.php:835
+#: template-edit-resume.php:914 template-edit-resume.php:932
+#: template-edit-resume.php:950 template-edit-resume.php:1037
+#: template-add-job.php:687 template-add-job.php:705 template-add-job.php:723
+#: template-add-job.php:810
+msgid "Level 1"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:830 template-add-resume.php:848
+#: template-add-resume.php:866 template-add-resume.php:953
+#: template-edit-job.php:713 template-edit-job.php:731
+#: template-edit-job.php:749 template-edit-job.php:836
+#: template-edit-resume.php:915 template-edit-resume.php:933
+#: template-edit-resume.php:951 template-edit-resume.php:1038
+#: template-add-job.php:688 template-add-job.php:706 template-add-job.php:724
+#: template-add-job.php:811
+msgid "Level 2"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:831 template-add-resume.php:849
+#: template-add-resume.php:867 template-add-resume.php:954
+#: template-edit-job.php:714 template-edit-job.php:732
+#: template-edit-job.php:750 template-edit-job.php:837
+#: template-edit-resume.php:916 template-edit-resume.php:934
+#: template-edit-resume.php:952 template-edit-resume.php:1039
+#: template-add-job.php:689 template-add-job.php:707 template-add-job.php:725
+#: template-add-job.php:812
+msgid "Level 3"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:832 template-add-resume.php:850
+#: template-add-resume.php:868 template-add-resume.php:955
+#: template-edit-job.php:715 template-edit-job.php:733
+#: template-edit-job.php:751 template-edit-job.php:838
+#: template-edit-resume.php:917 template-edit-resume.php:935
+#: template-edit-resume.php:953 template-edit-resume.php:1040
+#: template-add-job.php:690 template-add-job.php:708 template-add-job.php:726
+#: template-add-job.php:813
+msgid "Level 4"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:833 template-add-resume.php:851
+#: template-add-resume.php:869 template-add-resume.php:956
+#: template-edit-job.php:716 template-edit-job.php:734
+#: template-edit-job.php:752 template-edit-job.php:839
+#: template-edit-resume.php:918 template-edit-resume.php:936
+#: template-edit-resume.php:954 template-edit-resume.php:1041
+#: template-add-job.php:691 template-add-job.php:709 template-add-job.php:727
+#: template-add-job.php:814
+msgid "Level 5"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:1054 template-single-company.php:915
+#: template-contact.php:286 template-single-job.php:889
+msgid "LinkedIn"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2294 template-edit-company.php:1433
+#: template-edit-job.php:1129 template-edit-resume.php:2379
+#: template-add-job.php:1104 template-add-company.php:1351
+msgid "LinkedIn:"
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:145
+msgid "Location"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:161 template-add-resume.php:1326
+#: template-edit-company.php:209 template-edit-job.php:215
+#: template-edit-resume.php:246 template-edit-resume.php:1411
+#: template-add-job.php:190 template-add-company.php:129
+msgid "Location:"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:614 template-companies.php:588 template-jobs.php:717
+msgid "Locations"
+msgstr ""
+
+#. Text in function
+#: header.php:146
+msgid "Log out"
+msgstr ""
+
+#. Text in echo
+#: template-login.php:24 template-login.php:70 header.php:150
+msgid "Login"
+msgstr ""
+
+#. Text in echo
+#: template-login.php:78
+msgid "Login successful."
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:270 template-add-company.php:190
+msgid "Logo:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2496 template-edit-company.php:1635
+#: template-edit-job.php:1331 template-edit-resume.php:2581
+#: template-add-job.php:1306 template-add-company.php:1553
+msgid "Longitude:"
+msgstr ""
+
+#. Text in function
+#: archive.php:15
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:689 template-jobs.php:656
+msgid "More than"
+msgstr ""
+
+#. Text in function
+#: header.php:143 template-my-account.php:77
+msgid "My Account"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:899 template-edit-job.php:782
+#: template-edit-resume.php:984 template-add-job.php:757
+msgid "Name"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:583 template-add-company.php:503
+msgid ""
+"Name a few relevant clients from your portfolio and describe what your "
+"company was contracted for."
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:1727 template-edit-job.php:1423
+msgid "Name must be at least 3 characters long"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1351 template-edit-resume.php:1436
+msgid ""
+"Name the organisatins in which you gained your precious experience and "
+"professional expertise."
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:866 template-single-company.php:727
+#: template-contact.php:128 template-single-job.php:695
+msgid "Name*"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2091 template-edit-company.php:1230
+#: template-edit-resume.php:2176 template-add-company.php:1148
+msgid "Name:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:775 template-edit-job.php:658
+#: template-edit-resume.php:860 template-add-job.php:633
+msgid "Native Language"
+msgstr ""
+
+#. Text in function
+#: functions.php:910
+msgid "Navigation Menu"
+msgstr ""
+
+#. Text in function
+#: inc/company.php:1
+msgid "New Company"
+msgstr ""
+
+#. Text in function
+#: inc/job.php:1
+msgid "New Job"
+msgstr ""
+
+#. Text in function
+#: inc/quotes.php:1
+msgid "New Quote"
+msgstr ""
+
+#. Text in function
+#: inc/resume.php:1
+msgid "New Resume"
+msgstr ""
+
+#. Text in function
+#: functions.php:3274
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Text in function
+#: template-resumes.php:372 template-pendings.php:189
+#: inc/companies-filters.php:559 inc/jobs-filters.php:456
+#: template-companies.php:369 template-jobs.php:384
+#: inc/resumes-filters.php:438
+msgid "Next »"
+msgstr ""
+
+#. Text in function
+#: inc/company.php:1
+msgid "No Companies found"
+msgstr ""
+
+#. Text in function
+#: inc/company.php:1
+msgid "No Companies found in Trash"
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:707
+msgid "No Job Offer"
+msgstr ""
+
+#. Text in function
+#: inc/job.php:1
+msgid "No Jobs found"
+msgstr ""
+
+#. Text in function
+#: inc/job.php:1
+msgid "No Jobs found in Trash"
+msgstr ""
+
+#. Text in function
+#: inc/quotes.php:1
+msgid "No Quote found"
+msgstr ""
+
+#. Text in function
+#: inc/resume.php:1
+msgid "No Resumes found"
+msgstr ""
+
+#. Text in function
+#: inc/resume.php:1
+msgid "No Resumes found in Trash"
+msgstr ""
+
+#. Text in function
+#: inc/quotes.php:1
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#. Text in echo
+#: search.php:405
+msgid "No results found for the selected search criteria."
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2116 template-edit-company.php:1255
+#: template-edit-resume.php:2201 template-add-company.php:1173
+msgid "Note:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:644 template-add-resume.php:1532
+#: template-edit-company.php:746 template-edit-job.php:527
+#: template-edit-resume.php:729 template-edit-resume.php:1617
+#: template-add-job.php:502 template-add-company.php:666
+msgid "Notes:"
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:407
+msgid "Of experience"
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:661
+msgid "Older than:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1471 template-edit-resume.php:1556
+msgid "Organisation Name:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1735 template-edit-company.php:949
+#: template-edit-resume.php:1820 template-add-company.php:869
+msgid "Organisation:"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:246 template-single-job.php:201
+msgid "Organisational"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:570 template-edit-job.php:453
+#: template-edit-resume.php:655 template-add-job.php:428
+msgid "Organisational level:"
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:96 template-single-job.php:105
+msgid "Overview"
+msgstr ""
+
+#. Text in function
+#: functions.php:1257
+msgid "Pages Widget Area"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:581
+msgid "Password and E-mail updated successful."
+msgstr ""
+
+#. Text in echo
+#: template-login.php:144
+msgid "Password doesn’t exists. Please try another one."
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:553
+msgid "Password updated successful."
+msgstr ""
+
+#. Text in echo
+#: template-login.php:51 template-register.php:54 template-my-account.php:470
+msgid "Password:"
+msgstr ""
+
+#. Text in echo
+#: template-pendings.php:24
+msgid "Pending Items"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:422 template-my-account.php:658
+#: template-my-account.php:1101
+msgid "Pending review"
+msgstr ""
+
+#. Text in echo
+#: inc/companies-filters.php:511 template-companies.php:321
+#: template-single-company.php:179 template-single-job.php:534
+msgid "People"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1874 template-edit-job.php:905
+#: template-edit-resume.php:1959 template-add-job.php:880
+msgid "Per:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1497 template-edit-company.php:720
+#: template-edit-resume.php:1582 template-add-company.php:640
+msgid "Period:"
+msgstr ""
+
+#. Text in function
+#: functions.php:3310
+msgid "Permalink to %s"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2239 template-edit-company.php:1378
+#: template-edit-job.php:1074 template-edit-resume.php:2324
+#: template-add-job.php:1049 template-add-company.php:1296
+msgid "Phone number:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2130 template-edit-company.php:1269
+#: template-edit-resume.php:2215 template-add-company.php:1187
+msgid "Picture:"
+msgstr ""
+
+#. Text in echo
+#: template-register.php:121 template-add-resume.php:2599
+#: template-reset.php:82 template-my-account.php:527
+#: template-edit-company.php:1731 template-edit-job.php:1427
+#: template-edit-resume.php:2677 template-add-job.php:1409
+#: template-add-company.php:1656
+msgid "Please enter a valid email address"
+msgstr ""
+
+#. Text in echo
+#: template-register.php:130 template-my-account.php:534
+msgid "Please enter the same password as above"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:1726 template-edit-job.php:1422
+msgid "Please provide a name"
+msgstr ""
+
+#. Text in echo
+#: template-login.php:108 template-register.php:128
+msgid "Please provide a password"
+msgstr ""
+
+#. Text in echo
+#: template-login.php:104 template-register.php:116
+msgid "Please provide a username"
+msgstr ""
+
+#. Text in echo
+#: template-register.php:120 template-add-resume.php:2598
+#: template-reset.php:81 template-edit-company.php:1730
+#: template-edit-job.php:1426 template-edit-resume.php:2676
+#: template-add-job.php:1408 template-add-company.php:1655
+msgid "Please provide an email address"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2594 template-edit-resume.php:2672
+#: template-add-job.php:1404 template-add-company.php:1651
+msgid "Please provide your full name"
+msgstr ""
+
+#. Text in echo
+#: functions.php:3693
+msgid "Please reload the page and try again."
+msgstr ""
+
+#. Text in echo
+#: functions.php:3689
+msgid ""
+"Please wait a few seconds and dont reload the page. You will be notified as "
+"soon as the import has finished! :)"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:127 template-single-resume.php:139
+#: template-single-resume.php:648 template-add-resume.php:1921
+#: template-edit-company.php:1060 template-edit-resume.php:2006
+#: template-single-company.php:129 template-single-company.php:140
+#: template-single-company.php:504 template-add-company.php:980
+msgid "Portfolio"
+msgstr ""
+
+#. Text in echo
+#: functions.php:3302
+msgid "Post navigation"
+msgstr ""
+
+#. Text in echo
+#: functions.php:3266
+msgid "Posts navigation"
+msgstr ""
+
+#. Text in echo
+#: template-jobs.php:581 template-single-job.php:170
+msgid "Presence"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:150 template-add-job.php:125
+msgid "Presence:"
+msgstr ""
+
+#. Text in function
+#: inc/plans.php:1
+msgid "Pricing Plans"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1284 template-edit-resume.php:1369
+msgid "Prize:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:467 template-edit-resume.php:552
+msgid "Professional Title:"
+msgstr ""
+
+#. Text in echo
+#: inc/companies-filters.php:493 template-companies.php:303
+#: template-single-company.php:126 template-single-company.php:137
+msgid "Profile"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:300 template-edit-resume.php:385
+msgid "Profile Picture:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1941 template-add-resume.php:2082
+#: template-edit-company.php:1080 template-edit-company.php:1221
+#: template-edit-resume.php:2026 template-edit-resume.php:2167
+#: template-add-company.php:998 template-add-company.php:1139
+msgid "Project"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:422 template-my-account.php:426
+msgid "Public Profile"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:241 template-my-account.php:728
+#: template-my-account.php:1147
+msgid "Publish"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:1408 template-add-company.php:1326
+msgid "Publish company email address"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2269 template-edit-job.php:1104
+#: template-edit-resume.php:2354 template-add-job.php:1079
+msgid "Publish my email address"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:670 template-my-account.php:1115
+msgid "Published"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1118 template-edit-resume.php:1203
+msgid "Qualification & Faculty:"
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:97 template-single-job.php:106
+msgid "Qualifications"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:1287 archive.php:102 archive.php:120 index.php:109
+#: index.php:127 template-companies.php:1342 template-blog.php:109
+#: template-blog.php:127 category.php:84 category.php:102
+#: template-jobs.php:1280
+msgid "Read More"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:1231 template-companies.php:1286
+#: template-jobs.php:1224
+msgid "Recent News"
+msgstr ""
+
+#. Text in echo
+#: template-register.php:73 header.php:153
+msgid "Register"
+msgstr ""
+
+#. Text in echo
+#: template-register.php:24
+msgid "Register an Account"
+msgstr ""
+
+#. Text in echo
+#: template-register.php:81
+msgid "Registration successful."
+msgstr ""
+
+#. Text in echo
+#: template-pendings.php:180
+msgid "Reject"
+msgstr ""
+
+#. Text in echo
+#: template-login.php:59
+msgid "Remember me"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1858 template-edit-job.php:889
+#: template-edit-resume.php:1943 template-add-job.php:864
+msgid "Remuneration Amount:"
+msgstr ""
+
+#. Text in echo
+#: template-register.php:62 template-my-account.php:478
+msgid "Repeat Password:"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:384 template-add-job.php:359
+#: template-single-job.php:186
+msgid "Required Skills"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:385 template-add-job.php:360
+msgid "Rescribe the required skills and expertise for this job."
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:756 template-companies.php:749 template-jobs.php:749
+msgid "Reset Filters"
+msgstr ""
+
+#. Text in echo
+#: template-reset.php:25
+msgid "Reset Password"
+msgstr ""
+
+#. Text in echo
+#: search.php:112
+msgid "Results:"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:341 template-pendings.php:102 header.php:85
+#: header.php:287 template-my-account.php:191 inc/resumes-filters.php:407
+msgid "Resume"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2517
+msgid "Resume Saved Successful."
+msgstr ""
+
+#. Text in echo
+#: template-edit-resume.php:2602
+msgid "Resume Updated Successful."
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:107 header.php:85
+msgid "Resumes"
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:160
+msgid "Role"
+msgstr ""
+
+#. Text in echo
+#: template-jobs.php:673
+msgid "Salary"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:877 template-add-job.php:852
+#: template-single-job.php:426
+msgid "Salary & Benefits"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1846 template-edit-resume.php:1931
+msgid "Salary & Job Types"
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:98 template-single-job.php:107
+msgid "Sallary & Benefits"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2536 template-edit-company.php:1675
+#: template-edit-job.php:1371 template-edit-resume.php:2621
+#: template-add-job.php:1346 template-add-company.php:1593
+msgid "Save As Draft"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:567 template-companies.php:543 template-jobs.php:534
+msgid "Search & Refinements"
+msgstr ""
+
+#. Text in function
+#: inc/company.php:1
+msgid "Search Companies"
+msgstr ""
+
+#. Text in function
+#: inc/job.php:1
+msgid "Search Jobs"
+msgstr ""
+
+#. Text in function
+#: inc/resume.php:1
+msgid "Search Resumes"
+msgstr ""
+
+#. Text in function
+#: inc/quotes.php:1
+msgid "Search Testimonials"
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:222
+msgid "Search for Companies"
+msgstr ""
+
+#. Text in echo
+#: template-jobs.php:219
+msgid "Search for Jobs"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:223
+msgid "Search for Resumes"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:887 template-single-company.php:748
+#: template-contact.php:149 template-single-job.php:716
+msgid "Send Message"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:506 template-add-company.php:426
+msgid "Service"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:515 template-add-company.php:435
+msgid "Service Name"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:425 template-single-company.php:226
+#: template-add-company.php:345
+msgid "Services"
+msgstr ""
+
+#. Text in echo
+#: single.php:98
+msgid "Share:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:695 template-add-resume.php:734
+#: template-edit-job.php:578 template-edit-job.php:617
+#: template-edit-resume.php:780 template-edit-resume.php:819
+#: template-add-job.php:553 template-add-job.php:592
+msgid "Skill"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:124 template-single-resume.php:136
+#: template-single-resume.php:231 template-add-resume.php:455
+#: template-edit-resume.php:540
+msgid "Skills"
+msgstr ""
+
+#. Text in echo
+#: template-login.php:186
+msgid "Social account login"
+msgstr ""
+
+#. Text in echo
+#: template-register.php:207
+msgid "Social account register"
+msgstr ""
+
+#. Text in echo
+#: template-login.php:84 template-single-resume.php:901
+#: template-register.php:87 template-add-resume.php:2524 template-reset.php:65
+#: template-my-account.php:505 template-edit-company.php:1663
+#: template-edit-job.php:1359 template-edit-resume.php:2609
+#: template-single-company.php:762 template-contact.php:163
+#: template-add-job.php:1334 template-single-job.php:730
+#: template-add-company.php:1581
+msgid "Something went wrong, try refreshing and submitting the form again."
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:341 template-add-resume.php:929
+#: template-edit-job.php:812 template-edit-resume.php:1014
+#: template-add-job.php:787 template-single-job.php:299
+msgid "Speaking"
+msgstr ""
+
+#. Text in echo
+#: inc/job_meta.php:895 template-add-resume.php:2337 inc/company_meta.php:1245
+#: inc/resume_meta.php:1925 template-edit-company.php:1476
+#: template-edit-job.php:1172 template-edit-resume.php:2422
+#: template-add-job.php:1147 template-add-company.php:1394
+msgid "Start typing an address and select from the dropdown."
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:621 template-my-account.php:1060
+msgid "Status"
+msgstr ""
+
+#. Text in function
+#: functions.php:3310
+msgid "Sticky"
+msgstr ""
+
+#. Text in echo
+#: template-reset.php:51
+msgid "Submit"
+msgstr ""
+
+#. Text in echo
+#: template-add-company.php:1615
+msgid "Submit Company Profile"
+msgstr ""
+
+#. Text in echo
+#: template-add-company.php:1615
+msgid "Submit Company Profile For Review"
+msgstr ""
+
+#. Text in echo
+#: template-add-job.php:1368
+msgid "Submit Job Offer"
+msgstr ""
+
+#. Text in echo
+#: template-add-job.php:1368
+msgid "Submit Job Offer For Review"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2558
+msgid "Submit Resume"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2558
+msgid "Submit Resume For Review"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:141 template-add-company.php:61
+msgid "Tag Line:"
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:678
+msgid "Team Size"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:165 template-add-company.php:85
+msgid "Team Size:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1574 template-add-resume.php:1714
+#: template-edit-company.php:788 template-edit-company.php:928
+#: template-edit-resume.php:1659 template-edit-resume.php:1799
+#: template-add-company.php:708 template-add-company.php:848
+msgid "Testimonial"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1747 template-edit-company.php:961
+#: template-edit-resume.php:1832 template-add-company.php:881
+msgid "Testimonial:"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:592 template-add-resume.php:1554
+#: template-edit-company.php:768 template-edit-resume.php:1639
+#: template-single-company.php:451 template-add-company.php:688
+msgid "Testimonials"
+msgstr ""
+
+#. Text in echo
+#: template-reset.php:95
+msgid "There is no user available for this email."
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:1232 template-companies.php:1287
+#: template-jobs.php:1225
+msgid "These are the latest news from our blog."
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:617 template-my-account.php:1054
+msgid "Title"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2306 template-edit-company.php:1445
+#: template-edit-job.php:1141 template-edit-resume.php:2391
+#: template-add-job.php:1116 template-add-company.php:1363
+msgid "Twitter:"
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:155
+msgid "Type"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:299 template-add-resume.php:911
+#: template-edit-job.php:794 template-edit-resume.php:996
+#: template-add-job.php:769 template-single-job.php:257
+msgid "Understanding"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:229 template-my-account.php:716
+#: template-my-account.php:1135
+msgid "Unpublish"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:491
+msgid "Update"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:1690
+msgid "Update Company Profile"
+msgstr ""
+
+#. Text in echo
+#: template-edit-company.php:1690
+msgid "Update Company Profile For Review"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:1386
+msgid "Update Job Offer"
+msgstr ""
+
+#. Text in echo
+#: template-edit-job.php:1386
+msgid "Update Job Offer For Review"
+msgstr ""
+
+#. Text in echo
+#: template-edit-resume.php:2636
+msgid "Update Resume"
+msgstr ""
+
+#. Text in echo
+#: template-edit-resume.php:2636
+msgid "Update Resume For Review"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1922 template-edit-company.php:1061
+#: template-edit-resume.php:2007 template-add-company.php:981
+msgid "Upload your finest and brilliant work!"
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:223
+msgid "Use our awesome search tool to find companies’profiles!"
+msgstr ""
+
+#. Text in echo
+#: template-jobs.php:220
+msgid "Use our awesome search tool to find job offers!"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:224
+msgid "Use our awesome search tool to find the right candidates!"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:859 template-single-company.php:720
+#: template-single-job.php:688
+msgid "Use this contact form to send an email."
+msgstr ""
+
+#. Text in echo
+#: template-contact.php:121
+msgid "Use this contact form to send us an email."
+msgstr ""
+
+#. Text in echo
+#: template-login.php:140
+msgid "Username doesn’t exists. Please try another one."
+msgstr ""
+
+#. Text in echo
+#: template-register.php:161
+msgid "Username exists. Please try another one."
+msgstr ""
+
+#. Text in echo
+#: template-login.php:38 template-register.php:36
+msgid "Username:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:746 template-edit-job.php:629
+#: template-edit-resume.php:831 template-add-job.php:604
+msgid "Value:"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:340 inc/companies-filters.php:492
+#: inc/jobs-filters.php:379 template-companies.php:302 template-jobs.php:307
+#: inc/resumes-filters.php:406
+msgid "View"
+msgstr ""
+
+#. Text in function
+#: inc/company.php:1
+msgid "View Company"
+msgstr ""
+
+#. Text in function
+#: inc/job.php:1
+msgid "View Job"
+msgstr ""
+
+#. Text in echo
+#: inc/jobs-filters.php:565 template-jobs.php:106
+msgid "View Job Offer"
+msgstr ""
+
+#. Text in echo
+#: inc/companies-filters.php:1086 template-companies.php:109
+#: template-homepage-v1.php:157
+msgid "View Profile"
+msgstr ""
+
+#. Text in function
+#: inc/quotes.php:1
+msgid "View Quote"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:110 inc/resume.php:1 inc/resumes-filters.php:546
+msgid "View Resume"
+msgstr ""
+
+#. Text in function
+#: functions.php:3310
+msgid "View all posts by %s"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:1062
+msgid "Views"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:1068
+msgid "Visibility"
+msgstr ""
+
+#. Text in echo
+#: template-single-company.php:372
+msgid "We are sorry, but there are no jobs available."
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2251 template-edit-company.php:1390
+#: template-edit-job.php:1086 template-edit-resume.php:2336
+#: template-add-job.php:1061 template-add-company.php:1308
+msgid "Website:"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:78
+msgid "Welcome to your personal cabinet,"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:370 inc/companies-filters.php:557
+#: inc/jobs-filters.php:454 template-companies.php:367 template-jobs.php:382
+#: inc/resumes-filters.php:436
+msgid "Well, it looks like there are no results matching your criterias."
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2216 template-edit-company.php:1355
+#: template-edit-job.php:1051 template-edit-resume.php:2301
+#: template-add-job.php:1026 template-add-company.php:1273
+msgid "We’re almost done! Fill in the contact deatils accuratelly."
+msgstr ""
+
+#. Text in echo
+#: template-single-company.php:280
+msgid "We’re hiring! Please check our job offers and contact us."
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:434
+msgid "What I like to do in my free time."
+msgstr ""
+
+#. Text in echo
+#: template-single-job.php:392
+msgid "What else it would be nice to have."
+msgstr ""
+
+#. Text in echo
+#: template-single-company.php:255
+msgid "What we are good at."
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:534 template-add-resume.php:1350
+#: template-add-resume.php:1370 template-add-resume.php:1464
+#: template-edit-resume.php:1435 template-edit-resume.php:1455
+#: template-edit-resume.php:1549
+msgid "Work Experience"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:383 template-add-resume.php:947
+#: template-edit-job.php:830 template-edit-resume.php:1032
+#: template-add-job.php:805 template-single-job.php:341
+msgid "Writing"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:1310 template-edit-resume.php:1395
+msgid "Year:"
+msgstr ""
+
+#. Text in function
+#: archive.php:17
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:514 template-single-resume.php:160
+#: template-single-job.php:406
+msgid "Years"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:351 inc/resumes-filters.php:417
+msgid "Years Experience"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:120 template-edit-job.php:174
+#: template-edit-resume.php:205 template-add-job.php:149
+msgid "Years of experience:"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2108 template-edit-company.php:1247
+#: template-edit-resume.php:2193 template-add-company.php:1165
+msgid "You can leave it empty"
+msgstr ""
+
+#. Text in echo
+#: template-add-resume.php:2595 template-edit-resume.php:2673
+#: template-add-job.php:1405 template-add-company.php:1652
+msgid "Your name must be at least 3 characters long"
+msgstr ""
+
+#. Text in echo
+#: template-login.php:109 template-register.php:125 template-register.php:129
+#: template-my-account.php:530 template-my-account.php:533
+msgid "Your password must be at least 6 characters long"
+msgstr ""
+
+#. Text in echo
+#: template-login.php:105 template-register.php:117
+msgid "Your username must be at least 3 characters long"
+msgstr ""
+
+#. Text in echo
+#: template-login.php:25 template-register.php:25
+msgid ""
+"You’ll be able to post your resume, apply for a job, add companies profiles "
+"and post job offers!"
+msgstr ""
+
+#. Text in echo
+#: inc/jobs-filters.php:371 template-my-account.php:668
+#: template-my-account.php:1113 template-jobs.php:299
+msgid "ago"
+msgstr ""
+
+#. Text in echo
+#: template-pendings.php:167
+msgid "by"
+msgstr ""
+
+#. Text in echo
+#: template-my-account.php:1419
+msgid "days"
+msgstr ""
+
+#. Text in echo
+#: template-single-resume.php:161
+msgid "of experience"
+msgstr ""
+
+#. Text in echo
+#: template-companies.php:682
+msgid "people"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:710 template-companies.php:682 template-jobs.php:677
+msgid "to"
+msgstr ""
+
+#. Text in echo
+#: template-resumes.php:689 template-jobs.php:656
+msgid "years"
+msgstr ""
+
+#. Text in function
+#: template-resumes.php:372 template-pendings.php:189
+#: inc/companies-filters.php:559 inc/jobs-filters.php:456
+#: template-companies.php:369 template-jobs.php:384
+#: inc/resumes-filters.php:438
+msgid "« Previous"
+msgstr ""
+
+#. Text in function
+#: inc/autoimporter/parsers.php:1
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#. Text in function
+#: inc/autoimporter/parsers.php:1
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#. Text in function
+#: inc/autoimporter/parsers.php:1
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#. Text in function
+#: inc/post_meta.php:1
+msgid "Lcation"
+msgstr ""
+
+#. Text in function
+#: inc/post_meta.php:1
+msgid "Post type"
+msgstr ""
+
+#. Text in function
+#: inc/post_meta.php:1
+msgid "Price"
+msgstr ""
