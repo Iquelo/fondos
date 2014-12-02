@@ -363,8 +363,8 @@ function wpjobusSubmitResumesFilter() {
 
 									<span class="company-view-profile">
 										<span class="company-view-profile-title-holder">
-											<span class="company-view-profile-title"><?php _e( 'View', 'agrg' ); ?></span>
-											<span class="company-view-profile-subtitle"><?php _e( 'Resume', 'agrg' ); ?></span>
+											<span class="company-view-profile-title"><?php _e( 'Ver', 'agrg' ); ?></span>
+											<span class="company-view-profile-subtitle"><?php _e( 'Postulación', 'agrg' ); ?></span>
 										</span>
 										<i class="fa fa-eye"></i>
 									</span>

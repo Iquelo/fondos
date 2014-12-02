@@ -393,8 +393,8 @@ function wpjobusSubmitJobsFilter() {
 
 									<span class="company-view-profile">
 										<span class="company-view-profile-title-holder">
-											<span class="company-view-profile-title"><?php _e( 'View', 'agrg' ); ?></span>
-											<span class="company-view-profile-subtitle"><?php _e( 'Job Offer', 'agrg' ); ?></span>
+											<span class="company-view-profile-title"><?php _e( 'Ver ', 'agrg' ); ?></span>
+											<span class="company-view-profile-subtitle"><?php _e( 'Detalle', 'agrg' ); ?></span>
 										</span>
 										<i class="fa fa-eye"></i>
 									</span>
@@ -450,8 +450,8 @@ function wpjobusSubmitJobsFilter() {
 
 									<span class="job-offers-post-badge" style="max-width: 220px; <?php if($colorState ==1) { ?>background-color: <?php echo $color; ?>; border: solid 2px <?php echo $color; ?>;<?php } ?>">
 										<span class="job-offers-post-badge-job-type" style="width: 110px; <?php if($colorState ==1) { ?>color: <?php echo $color; ?>;<?php } ?>"><?php echo $wpjobus_job_type = get_post_meta($company_id, 'wpjobus_job_type',true); ?></span>
-										<span class="job-offers-post-badge-amount"><?php echo $wpjobus_job_remuneration = get_post_meta($company_id, 'wpjobus_job_remuneration',true); ?></span>
-										<span class="job-offers-post-badge-amount-per">/<?php echo $wpjobus_job_remuneration_per = get_post_meta($company_id, 'wpjobus_job_remuneration_per',true); ?></span>
+										<span class="job-offers-post-badge-amount borrar"><?php echo $wpjobus_job_remuneration = get_post_meta($company_id, 'wpjobus_job_remuneration',true); ?></span>
+										<span class="job-offers-post-badge-amount-per borrar">/<?php echo $wpjobus_job_remuneration_per = get_post_meta($company_id, 'wpjobus_job_remuneration_per',true); ?></span>
 									</span>
 
 								</span>

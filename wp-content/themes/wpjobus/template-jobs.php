@@ -389,8 +389,8 @@ get_header(); ?>
 
 											<span class="company-view-profile">
 												<span class="company-view-profile-title-holder">
-													<span class="company-view-profile-title"><?php _e( 'View', 'agrg' ); ?></span>
-													<span class="company-view-profile-subtitle"><?php _e( 'Job Offer', 'agrg' ); ?></span>
+													<span class="company-view-profile-title"><?php _e( 'Ver', 'agrg' ); ?></span>
+													<span class="company-view-profile-subtitle"><?php _e( 'Detalle', 'agrg' ); ?></span>
 												</span>
 												<i class="fa fa-eye"></i>
 											</span>

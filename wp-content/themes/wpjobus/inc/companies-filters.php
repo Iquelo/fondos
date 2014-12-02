@@ -542,8 +542,8 @@ function wpjobusSubmitCompaniesFilter() {
 
 							  	<span class="company-view-profile">
 									<span class="company-view-profile-title-holder">
-								  		<span class="company-view-profile-title"><?php _e( 'View', 'agrg' ); ?></span>
-								  		<span class="company-view-profile-subtitle"><?php _e( 'Profile', 'agrg' ); ?></span>
+								  		<span class="company-view-profile-title"><?php _e( 'Ver', 'agrg' ); ?></span>
+								  		<span class="company-view-profile-subtitle"><?php _e( 'Perfil', 'agrg' ); ?></span>
 									</span>
 									<i class="fa fa-eye"></i>
 							  	</span>

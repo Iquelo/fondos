@@ -61,16 +61,16 @@ get_header(); ?>
 				<div class="resume-skills" style="padding-bottom: 0;">
 
 					<div class="full" style="margin-bottom: 50px;">
-						<h1 class="resume-section-title"><i class="fa fa-search"></i><?php _e( 'Search', 'agrg' ); ?></h1>
-						<h3 class="resume-section-subtitle" style="margin-bottom: 0;"><?php _e( 'Use our awesome search tool to find jobs, companies or resumes!', 'agrg' ); ?></h3>
+						<h1 class="resume-section-title"><i class="fa fa-search"></i><?php _e( 'Buscar', 'agrg' ); ?></h1>
+						<h3 class="resume-section-subtitle" style="margin-bottom: 0;"><?php _e( 'Encuentra instrumentos, fondos o prestaciones.', 'agrg' ); ?></h3>
 					</div>
 
 					<div class="full" style="margin-bottom: 0;">
 
 						<ul id="homepage-posts-block" class="tabs-search quicktabs-tabs quicktabs-style-nostyle"> 
-						    <li class="grid-feat-ad-style active"><a class="current" href="#"><i class="fa fa-bullhorn"></i><?php _e( 'Jobs', 'agrg' ); ?></a></li>
-						   	<li class="list-feat-ad-style"><a class="" href="#"><i class="fa fa-file-text-o"></i><?php _e( 'Resumes', 'agrg' ); ?></a></li>
-						   	<li class="list-feat-ad-style"><a class="" href="#"><i class="fa fa-briefcase"></i><?php _e( 'Companies', 'agrg' ); ?></a></li>
+						    <li class="grid-feat-ad-style active"><a class="current" href="#"><i class="fa fa-bullhorn"></i><?php _e( 'Fondos', 'agrg' ); ?></a></li>
+						   	<li class="list-feat-ad-style"><a class="" href="#"><i class="fa fa-file-text-o"></i><?php _e( 'Prestaciones', 'agrg' ); ?></a></li>
+						   	<li class="list-feat-ad-style"><a class="" href="#"><i class="fa fa-briefcase"></i><?php _e( 'Instituciones', 'agrg' ); ?></a></li>
 			            </ul>
 
 			            <div class="pane" style="display: block;">
@@ -81,14 +81,14 @@ get_header(); ?>
 
 				            		<div class="one_fourth first" style="margin-bottom: 0">
 
-				            			<input type="text" name="keyword" id="fullName" value="" class="input-textarea" placeholder="Keyword" style="margin-bottom: 0;"/>
+				            			<input type="text" name="keyword" id="fullName" value="" class="input-textarea" placeholder="Buscar.." style="margin-bottom: 0;"/>
 
 				            		</div>
 
 				            		<div class="one_fourth" style="margin-bottom: 0">
 
 				            			<select name="job_location" id="job_location" style="width: 100%; margin-bottom: 0;">
-				            				<option value='all' >Any Location</option>
+				            				<option value='all' >Cualquier región</option>
 											<?php 
 												global $redux_demo, $job_location; 
 												for ($i = 0; $i < count($redux_demo['resume-locations']); $i++) {
@@ -104,7 +104,7 @@ get_header(); ?>
 				            		<div class="one_fourth" style="margin-bottom: 0">
 
 				            			<select name="job_type" id="job_type" style="width: 100%; margin-bottom: 0;">
-				            				<option value='all' >Any Type</option>
+				            				<option value='all' >Cualquier tipo</option>
 											<?php 
 												global $redux_demo, $job_location; 
 												for ($i = 0; $i < count($redux_demo['job-type']); $i++) {
@@ -119,7 +119,7 @@ get_header(); ?>
 
 				            		<div class="one_fourth" style="margin-bottom: 0">
 
-				            			<span onclick="document.getElementById('search-jobs-form').submit(); return false;" id="comp-reset" class="button-ag-full" style="width: 100%; text-align: center;" ><i class="fa fa-search"></i><?php _e( 'Search', 'agrg' ); ?></span>
+				            			<span onclick="document.getElementById('search-jobs-form').submit(); return false;" id="comp-reset" class="button-ag-full" style="width: 100%; text-align: center;" ><i class="fa fa-search"></i><?php _e( 'Buscar', 'agrg' ); ?></span>
 
 				            		</div>
 

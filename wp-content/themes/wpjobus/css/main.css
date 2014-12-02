@@ -12010,7 +12010,7 @@ button#submit_add_language:hover, button#submit_add_language:hover .fa, button#s
 	color: #484848;
 	font-size: 18px;
 	margin-top: 4px;
-	font-family: Roboto Slab;
+	font-family: 'Roboto', sans-serif;
 
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -12522,7 +12522,7 @@ button#submit_add_language:hover, button#submit_add_language:hover .fa, button#s
 	width: 140px;
 	line-height: 16px !important;
 	font-size: 14px;
-	font-family: Roboto Slab;
+	font-family: Roboto;
 	margin-top: 9px;
 }
 
@@ -12688,7 +12688,7 @@ a.pending-posts.pending-active:hover, a.pending-posts.pending-active:hover .fa {
 .pending-post-name a, .pending-post-company-name {
 	float: left;
 	font-size: 18px;
-	font-family: Roboto Slab;
+	font-family: 'Roboto', sans-serif;
 	padding: 33px 0;
 }
 
@@ -12709,7 +12709,7 @@ a.pending-posts.pending-active:hover, a.pending-posts.pending-active:hover .fa {
 .pending-post-reject-link, .pending-post-approve-link {
 	float: left;
 	font-size: 18px;
-	font-family: Roboto Slab;
+	font-family: 'Roboto', sans-serif;
 	padding: 33px 0;
 	cursor: pointer;
 }
@@ -12852,7 +12852,7 @@ a.pending-posts.pending-active:hover, a.pending-posts.pending-active:hover .fa {
 	text-align: center;
 	color: #2980b9;
 	font-size: 22px;
-	font-family: Roboto Slab;
+	font-family: 'Roboto', sans-serif;
 }
 
 .featured-item-content-tagline {
@@ -13282,5 +13282,8 @@ html {
 	display: none;
 }
 
+.borrar {
+	display: none;
+}
 
 

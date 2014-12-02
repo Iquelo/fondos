@@ -3799,10 +3799,10 @@ function function_recent_news($atts, $content) {
 				$my_comments_link = get_comments_link( $post->ID );
 				$post_time = get_the_date();
 
-				$output_wpjobus_stats .= "<h3 style='float: left; width: 100%; text-align: center; margin: 0;''><a href='".$permalink."'>".$theTitle."</a></h3>
+				$output_wpjobus_stats .= "<h4 style='float: left; width: 100%; text-align: center; margin: 0;''><a href='".$permalink."'>".$theTitle."</a></h4>
 
 				<div class='full post-meta' style='margin-bottom: 0;''>
-					<p><i class='fa fa-user' style='margin: 0 10px;'></i>".get_the_author_link()."<i class='fa fa-clock-o' style='margin: 0 10px;''></i>".$post_time."<i class='fa fa-comment' style='margin: 0 10px;'></i><a href='".$my_comments_link."'>".$my_comments."</a></p>
+					<pstyle='font-family: Montserrat;'><i class='fa fa-clock-o' style='margin: 0 10px;''></i>".$post_time."<i class='fa fa-comment' style='margin: 0 10px;'></i><a href='".$my_comments_link."'>".$my_comments."</a></p>
 				</div>
 
 				<div class='full' style='margin-bottom: 0;'>".wp_trim_words( $content , '25' )."</div>
@@ -3837,9 +3837,9 @@ function function_wpjobus_recent_resumes($atts, $content) {
 	$output_wpjobus_stats = "<div class='resume-skills' style='margin-top: 50px; padding-bottom: 0; margin-bottom: 50px;'><div id='tabs' class='full' style='margin-bottom: 0;'>
 
 							<ul id='homepage-posts-block' class='tabs quicktabs-tabs quicktabs-style-nostyle'> 
-						    	<li class='grid-feat-ad-style'><a class='' href='#'><i class='fa fa-bullhorn'></i>Latest Jobs</a></li>
-						    	<li class='list-feat-ad-style'><a class='' href='#'><i class='fa fa-file-text-o'></i>Latest Resumes</a></li>
-						    	<li class='list-feat-ad-style'><a class='' href='#'><i class='fa fa-briefcase'></i>Latest Companies</a></li>
+						    	<li class='grid-feat-ad-style'><a class='' href='#'><i class='fa fa-plus-square-o'></i>Fondos Recientes</a></li>
+						    	<li class='list-feat-ad-style'><a class='' href='#'><i class='fa fa-heart'></i>Ayudas Recientes</a></li>
+						    	<li class='list-feat-ad-style'><a class='' href='#'><i class='fa fa-university'></i>Instituciones</a></li>
 			                </ul>";
 
 	$output_wpjobus_stats .= "<div class='pane'><div class='two_third first shortcode-resume-block'><ul id='companies-block-list-ul'>";
@@ -3896,8 +3896,8 @@ function function_wpjobus_recent_resumes($atts, $content) {
 
 												<span class='company-view-profile'>
 													<span class='company-view-profile-title-holder'>
-														<span class='company-view-profile-title'>View</span>
-														<span class='company-view-profile-subtitle'>Job Offer</span>
+														<span class='company-view-profile-title'>Ver</span>
+														<span class='company-view-profile-subtitle'>Detalle</span>
 													</span>
 													<i class='fa fa-eye'></i>
 												</span>
@@ -3958,8 +3958,8 @@ function function_wpjobus_recent_resumes($atts, $content) {
 							$output_wpjobus_stats .= "color: ".$color.";";
 						} 
 							$output_wpjobus_stats .= "'>".$wpjobus_job_type = get_post_meta($company_id, 'wpjobus_job_type',true)."</span>
-													<span class='job-offers-post-badge-amount'>".$wpjobus_job_remuneration = get_post_meta($company_id, 'wpjobus_job_remuneration',true)."</span>
-													<span class='job-offers-post-badge-amount-per'>/".$wpjobus_job_remuneration_per = get_post_meta($company_id, 'wpjobus_job_remuneration_per',true)."</span>
+													<span class='job-offers-post-badge-amount'>".$wpjobus_job_remuneration = get_post_meta($company_id, 'wpjobus_job_remuneration borrar',true)."</span>
+													<span class='job-offers-post-badge-amount-per borrar'>/".$wpjobus_job_remuneration_per = get_post_meta($company_id, 'wpjobus_job_remuneration_per',true)."</span>
 												</span>
 
 											</span>
@@ -3974,7 +3974,7 @@ function function_wpjobus_recent_resumes($atts, $content) {
 
 							}
 
-	$output_wpjobus_stats .= "<ul></div><div class='one_third' style='margin-bottom: 0;'>";
+	$output_wpjobus_stats .= "<ul></div><div class='one_third borrar' style='margin-bottom: 0;'>";
  
 
 							$currentDate = current_time('timestamp');
