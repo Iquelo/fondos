@@ -60,36 +60,15 @@
 
 				?>
 				<?php if($jobsNum == 1) {
-					_e( 'Job', 'agrg' ); 
+					_e( 'Oportunidad', 'agrg' ); 
 				} else {
-					_e( 'Jobs', 'agrg' );
+					_e( 'Oportunidades', 'agrg' );
 				} ?>
 				</span>
 
 				<span class="header-stats-divider">|</span>
 
-				<span>
-				<?php
-
-					$resumes = $wpdb->get_results( "SELECT * FROM `{$wpdb->prefix}posts` WHERE post_type = 'resume' and post_status = 'publish'");
-
-					$resumesNum = 0;
-
-					foreach ($resumes as $key => $value) {
-						$resumesNum++;
-					}
-
-					echo $resumesNum;
-
-				?>
-				<?php if($resumesNum == 1) {
-					_e( 'Resume', 'agrg' ); 
-				} else {
-					_e( 'Resumes', 'agrg' );
-				} ?>
-				</span>
-
-				<span class="header-stats-divider">|</span>
+			
 
 				<span>
 				<?php
@@ -106,9 +85,9 @@
 
 				?>
 				<?php if($compNum == 1) {
-					_e( 'Company', 'agrg' ); 
+					_e( 'Institucion', 'agrg' ); 
 				} else {
-					_e( 'Companies', 'agrg' );
+					_e( 'Instituciones', 'agrg' );
 				} ?>
 				</span>
 
@@ -135,7 +114,8 @@
 
 				<?php } ?>
 
-				<ul class="menu" style="padding-left: 0;">
+				<!--
+<ul class="menu" style="padding-left: 0;">
 					<?php 
 						if ( is_user_logged_in() ) {
 					?>
@@ -154,6 +134,7 @@
 					</li>
 					<?php } ?>	
 				</ul>
+-->
 			</div>
 
 			<div class="top-social-icons">
@@ -268,11 +249,11 @@
 
 				<span class="top_menu new-posts-menu">
 
-					<ul class="menu">
-						<li><a href="#" class="button-ag"><span class="button-inner"><?php printf( __( 'Add New', 'agrg' )); ?><i class="fa fa-plus-circle"></i></span></a>
+					<ul class="menu borrar">
+						<li><a href="#" class="button-ag"><span class="button-inner"><?php printf( __( 'Añadir', 'agrg' )); ?><i class="fa fa-plus-circle"></i></span></a>
 							<ul class="sub-menu">
 								<img class="sub-menu-top-corner" src="<?php echo get_template_directory_uri(); ?>/images/sub-menu-corner.png"/>
-								<li><a href="<?php $new_job = home_url()."/add-job"; echo $new_job; ?>"><i class="fa fa-bullhorn"></i><?php printf( __( 'Job', 'agrg' )); ?></a></li>
+								<li><a href="<?php $new_job = home_url()."/add-job"; echo $new_job; ?>"><i class="fa fa-bullhorn"></i><?php printf( __( 'Oportunidad', 'agrg' )); ?></a></li>
 								<?php
 
 									global $current_user;
@@ -282,9 +263,9 @@
 									if(empty($resume)) {
 
 								?>
-								<li><a href="<?php $new_resume = home_url()."/add-resume"; echo $new_resume; ?>"><i class="fa fa-file-text-o"></i><?php printf( __( 'Resume', 'agrg' )); ?></a></li>
+								<!-- <li><a href="<?php $new_resume = home_url()."/add-resume"; echo $new_resume; ?>"><i class="fa fa-file-text-o"></i><?php printf( __( 'Resume', 'agrg' )); ?></a></li> -->
 								<?php } ?>
-								<li><a href="<?php $new_company = home_url()."/add-company"; echo $new_company; ?>"><i class="fa fa-briefcase"></i><?php printf( __( 'Company', 'agrg' )); ?></a></li>
+								<li><a href="<?php $new_company = home_url()."/add-company"; echo $new_company; ?>"><i class="fa fa-briefcase"></i><?php printf( __( 'Institución', 'agrg' )); ?></a></li>
 							</ul>
 						</li>
 					</ul>

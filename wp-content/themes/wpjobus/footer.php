@@ -41,8 +41,7 @@
 						echo $footer_copyright;
 					} else {
 				?>
-				 Made with <i class="fa fa-heart"></i> by <a class="target-blank" href="http://themeforest.net/user/agurghis/portfolio?ref=agurghis">Alex Gurghis</a> and <a class="target-blank" href="http://www.rtdesignstudio.com/">Radu Trifan</a>. Powered by <a href="#">WordPress</a>
-				<?php } ?>
+				 Fundación para la superación de la pobreza | 2014 				<?php } ?>
 				
 			</div>
 

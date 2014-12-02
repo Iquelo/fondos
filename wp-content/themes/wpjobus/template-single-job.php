@@ -289,14 +289,16 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 				<span class="zebra-line middle"></span>
 				<span class="zebra-line bottom"></span>
 			</div>
-			<span class="banner-hello">
+			<!--
+<span class="banner-hello borrar">
 				<span class="job_work_type"><?php echo $wpjobus_job_type; ?></span>
 				<span class="job_remuneration"><?php echo $wpjobus_job_remuneration; ?></span>
 				<span class="job_remuneration_per">/<?php echo $wpjobus_job_remuneration_per; ?></span>
 			</span>
+-->
 	      	<h1><?php echo $wpjobus_job_fullname; ?></h1>
 	      	<h2><i class="fa fa-briefcase"></i><?php $wpjobus_company_fullname = esc_attr(get_post_meta($job_company, 'wpjobus_company_fullname',true)); echo $wpjobus_company_fullname; ?> <i class="fa fa-map-marker"></i><?php echo $job_location; ?></h2>
-	      	<span class="cover-resume-breadcrumbs"><i class="fa fa-home"></i> <i class="fa fa-chevron-right"></i> <?php _e( 'Jobs', 'agrg' ); ?> <i class="fa fa-chevron-right"></i>  <?php echo $job_industry; ?> </span>
+	      	<span class="cover-resume-breadcrumbs"><i class="fa fa-home"></i> <i class="fa fa-chevron-right"></i> <?php _e( 'Oportunidad', 'agrg' ); ?> <i class="fa fa-chevron-right"></i>  <?php echo $job_industry; ?> </span>
 	    </div>
 
 		<div class="coverImageHolder">
@@ -311,10 +313,13 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 			<ul class="nav navbar-nav">
 
-				<li class="menuItem active backtophome"><a href="#backtop"><i class="fa fa-home"></i><?php _e( 'Overview', 'agrg' ); ?></a></li>
-				<li class="menuItem"><a href="#resume-skills-block"><i class="fa fa-bar-chart-o"></i><?php _e( 'Qualifications', 'agrg' ); ?></a></li>
-				<li class="menuItem"><a href="#resume-experience-block"><i class="fa fa-money"></i><?php _e( 'Sallary & Benefits', 'agrg' ); ?></a></li>
-				<li class="menuItem"><a href="#resume-contact-block"><i class="fa fa-envelope"></i><?php _e( 'Job Application', 'agrg' ); ?></a></li>
+				<li class="menuItem active backtophome"><a href="#resume-about-block"><i class="fa fa-file-text-o"></i><?php _e( 'Descripción', 'agrg' ); ?></a></li>
+				<li class="menuItem"><a href="#resume-experience-block"><i class="fa fa-bookmark"></i><?php _e( 'Detalles', 'agrg' ); ?></a></li>
+				<li class="menuItem"><a href="#resume-skills-block"><i class="fa fa-university"></i><?php _e( 'Institución', 'agrg' ); ?></a></li>
+				<li class="menuItem"><a href="#resume-contact"><i class="fa fa-map-marker"></i><?php _e( 'Mapa', 'agrg' ); ?></a></li>
+				
+				<li class="menuItem"><a href="#resume-map"><i class="fa fa-send"></i>Contacto</a></li>
+				
 
 			</ul>
 
@@ -354,32 +359,38 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 			<div class="two_fifth" style="margin-top: 50px;">
 
-				<span class="job-info-details">
+				<!--
+<span class="job-info-details">
 					<span class="job-info-id"><i class="fa fa-square-o"></i><?php _e( 'ID', 'agrg' ); ?></span>
 					<span class="job-info-data">#<?php $id = get_the_ID(); echo $id; ?></span>
 				</span>
+-->
+
+
 
 				<span class="job-info-details">
-					<span class="job-info-id"><i class="fa fa-map-marker"></i><?php _e( 'Location', 'agrg' ); ?></span>
+					<span class="job-info-id"><i class="fa fa-rocket"></i><?php _e( 'Nombre', 'agrg' ); ?></span>
+					<span class="job-info-data"><?php echo $wpjobus_job_fullname; ?></span>
+				</span>
+
+
+				<span class="job-info-details">
+					<span class="job-info-id"><i class="fa fa-map-marker"></i><?php _e( 'Ubicación', 'agrg' ); ?></span>
 					<span class="job-info-data"><?php echo $job_location; ?></span>
 				</span>
 
-				<span class="job-info-details">
-					<span class="job-info-id"><i class="fa fa-folder-o"></i><?php _e( 'Industry', 'agrg' ); ?></span>
-					<span class="job-info-data"><?php echo $job_industry; ?></span>
-				</span>
-
-				<span class="job-info-details">
-					<span class="job-info-id"><i class="fa fa-bolt"></i><?php _e( 'Type', 'agrg' ); ?></span>
+<span class="job-info-details">
+					<span class="job-info-id"><i class="fa fa-child"></i><?php _e( 'Tipo', 'agrg' ); ?></span>
 					<span class="job-info-data"><?php echo $wpjobus_job_type; ?></span>
 				</span>
 
 				<span class="job-info-details">
-					<span class="job-info-id"><i class="fa fa-rocket"></i><?php _e( 'Role', 'agrg' ); ?></span>
-					<span class="job-info-data"><?php echo $wpjobus_job_fullname; ?></span>
+					<span class="job-info-id"><i class="fa fa-folder-o"></i><?php _e( 'Categoría', 'agrg' ); ?></span>
+					<span class="job-info-data"><?php echo $job_industry; ?></span>
 				</span>
 
-				<span class="job-info-details">
+				<!--
+<span class="job-info-details">
 					<span class="job-info-id"><i class="fa fa-flask"></i><?php _e( 'Career Level', 'agrg' ); ?></span>
 					<span class="job-info-data"><?php echo $job_career_level; ?></span>
 				</span>
@@ -388,6 +399,7 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 					<span class="job-info-id"><i class="fa fa-home"></i><?php _e( 'Presence', 'agrg' ); ?></span>
 					<span class="job-info-data"><?php echo $job_presence_type; ?></span>
 				</span>
+-->
 
 			</div>
 
@@ -395,245 +407,7 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 	</section>
 
-	<section id="resume-skills-block">
-
-		<div class="container">
-
-			<div class="resume-skills">
-
-				<h1 class="resume-section-title"><i class="fa fa-rocket"></i><?php _e( 'Required Skills', 'agrg' ); ?></h1>
-				<h3 class="resume-section-subtitle"><?php _e( 'Here’s an overview qualifications you need for this job.', 'agrg' ); ?></h3>
-
-				<div class="one_half first">
-
-					<span class="main-skills-item">
-						<span class="main-skills-item-title"><?php _e( 'Communication', 'agrg' ); ?></span>
-						<span class="main-skills-item-bar">
-							<span class="main-skills-item-bar-color" style="width: <?php echo $wpjobus_job_comm_level; ?>; background-color: #2ecc71;"></span>
-						</span>
-					</span>
-
-					<div class="full main-skills-item-note"><?php echo $wpjobus_job_comm_note; ?></div>
-
-					<span class="main-skills-item">
-						<span class="main-skills-item-title"><?php _e( 'Organisational', 'agrg' ); ?></span>
-						<span class="main-skills-item-bar">
-							<span class="main-skills-item-bar-color" style="width: <?php echo $wpjobus_job_org_level; ?>; background-color: #e74c3c;"></span>
-						</span>
-					</span>
-
-					<div class="full main-skills-item-note"><?php echo $wpjobus_job_org_note; ?></div>
-
-					<span class="main-skills-item">
-						<span class="main-skills-item-title"><?php _e( 'Job Related', 'agrg' ); ?></span>
-						<span class="main-skills-item-bar">
-							<span class="main-skills-item-bar-color" style="width: <?php echo $wpjobus_job_job_rel_level; ?>; background-color: #34495e;"></span>
-						</span>
-					</span>
-
-					<div class="full main-skills-item-note"><?php echo $wpjobus_job_job_rel_note; ?></div>
-
-				</div>
-
-				<div class="one_half" style="border-top: solid 1px #ecf0f1; padding-top: 50px;">
-
-					<?php 
-
-						if(!empty($wpjobus_job_skills)) {
-
-							for ($i = 0; $i < (count($wpjobus_job_skills)); $i++) {
-					?>
-
-					<span class="main-skills-item" style="border: none; padding: 0; margin-bottom: 10px;">
-						<span class="main-skills-item-title" style="color: #999;"><?php echo $wpjobus_job_skills[$i][0]; ?></span>
-						<span class="main-skills-item-bar">
-							<span class="main-skills-item-bar-color" style="width: <?php echo $wpjobus_job_skills[$i][1]; ?>; background-color: #2980b9;"></span>
-						</span>
-					</span>
-
-					<?php } } ?>
-
-					<div class="divider"></div>
-
-					<div class="one_half first"><span class="main-skills-item-title-language"><?php $languages_total = count($wpjobus_job_languages); $languages_total++; echo $languages_total; ?> <?php _e( 'Languages', 'agrg' ); ?></span></div>
-
-					<div class="one_half"><span class="main-skills-item-title-language native-language"><?php echo $wpjobus_job_native_language; ?></span> <span class="main-skills-item-title-language native-small-language"><?php _e( '(Native)', 'agrg' ); ?></span></div>
-
-					<?php 
-
-						if(!empty($wpjobus_job_languages)) {
-
-							for ($i = 0; $i < (count($wpjobus_job_languages)); $i++) {
-					?>
-
-					<div class="full main-skills-item-language">
-
-						<div class="full"><span class="main-skills-item-title-language native-language-all"><?php echo esc_attr($wpjobus_job_languages[$i][0]); ?></span></div>
-
-						<div class="full" style="margin-bottom: 0;">
-
-							<div class="one_half first" style="margin-bottom: 10px;"><span class="main-skills-item-title-language native-small-language-all"><?php _e( 'Understanding', 'agrg' ); ?></span></div>
-
-							<div class="one_half" style="margin-bottom: 10px;">
-								<span class="main-skills-item-title-language">
-
-									<?php if($wpjobus_job_languages[$i][1] == "Level 1") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i>
-
-									<?php } ?>
-
-									<?php if($wpjobus_job_languages[$i][1] == "Level 2") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i>
-
-									<?php } ?>
-
-									<?php if($wpjobus_job_languages[$i][1] == "Level 3") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i>
-
-									<?php } ?>
-
-									<?php if($wpjobus_job_languages[$i][1] == "Level 4") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment-o"></i>
-
-									<?php } ?>
-
-									<?php if($wpjobus_job_languages[$i][1] == "Level 5") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i>
-
-									<?php } ?>
-
-								</span>
-							</div>
-
-						</div>
-
-						<div class="full" style="margin-bottom: 0;">
-
-							<div class="one_half first" style="margin-bottom: 10px;"><span class="main-skills-item-title-language native-small-language-all"><?php _e( 'Speaking', 'agrg' ); ?></span></div>
-
-							<div class="one_half" style="margin-bottom: 10px;">
-								<span class="main-skills-item-title-language">
-
-									<?php if($wpjobus_job_languages[$i][2] == "Level 1") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i>
-
-									<?php } ?>
-
-									<?php if($wpjobus_job_languages[$i][2] == "Level 2") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i>
-
-									<?php } ?>
-
-									<?php if($wpjobus_job_languages[$i][2] == "Level 3") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i>
-
-									<?php } ?>
-
-									<?php if($wpjobus_job_languages[$i][2] == "Level 4") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment-o"></i>
-
-									<?php } ?>
-
-									<?php if($wpjobus_job_languages[$i][2] == "Level 5") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i>
-
-									<?php } ?>
-
-								</span>
-							</div>
-
-						</div>
-
-						<div class="full" style="margin-bottom: 0;">
-
-							<div class="one_half first" style="margin-bottom: 10px;"><span class="main-skills-item-title-language native-small-language-all"><?php _e( 'Writing', 'agrg' ); ?></span></div>
-
-							<div class="one_half" style="margin-bottom: 10px;">
-								<span class="main-skills-item-title-language">
-
-									<?php if($wpjobus_job_languages[$i][3] == "Level 1") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i>
-
-									<?php } ?>
-
-									<?php if($wpjobus_job_languages[$i][3] == "Level 2") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i>
-
-									<?php } ?>
-
-									<?php if($wpjobus_job_languages[$i][3] == "Level 3") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment-o"></i><i class="fa fa-comment-o"></i>
-
-									<?php } ?>
-
-									<?php if($wpjobus_job_languages[$i][3] == "Level 4") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment-o"></i>
-
-									<?php } ?>
-
-									<?php if($wpjobus_job_languages[$i][3] == "Level 5") { ?>
-
-									<i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i><i class="fa fa-comment"></i>
-
-									<?php } ?>
-
-								</span>
-							</div>
-
-						</div>
-
-					</div>
-
-					<?php } } ?>
-
-				</div>
-
-				<?php if (!empty($wpjobus_job_hobbies)) { ?>
-
-				<div class="divider"></div>
-
-				<h1 class="resume-section-title"><i class="fa fa-cogs"></i><?php _e( 'Aditional Requirements', 'agrg' ); ?></h1>
-				<h3 class="resume-section-subtitle"><?php _e( 'What else it would be nice to have.', 'agrg' ); ?></h3>
-
-				<div class="full hobbies-block" style="text-align: center;">
-
-					<?php $wpjobus_job_hobbies = str_replace(", ", ",", $wpjobus_job_hobbies); $wpjobus_job_hobbies = str_replace(",", "</span><span class='hobbies-item'>", $wpjobus_job_hobbies); ?>
-
-					<span class="hobbies-item"><?php echo $wpjobus_job_hobbies; ?></span>
-
-				</div>
-
-				<div class="full" style="text-align: center;">
-
-				<span class="company-est-year-block" style="max-width: 200px;">
-					<i class="fa fa-calendar"></i>
-					<span class="experience-period" style="font-size: 16px;"><?php echo $job_years_of_exp; ?> <?php _e( 'Years', 'agrg' ); ?></span>
-					<span class="experience-subtitle" style="font-size: 12px;"><?php _e( 'Of experience', 'agrg' ); ?></span>
-				</span>
-
-			</div>
-
-				<?php } ?>
-
-			</div>
-
-		</div>
-
-	</section>
+	
 
 	<section id="resume-experience-block" style="margin-bottom: 30px;">
 
@@ -641,19 +415,10 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 			<div class="resume-skills">
 
-				<h1 class="resume-section-title"><i class="fa fa-money"></i><?php _e( 'Salary & Benefits', 'agrg' ); ?></h1>
-				<h3 class="resume-section-subtitle"><?php _e( 'Here’s what you get.', 'agrg' ); ?></h3>
+				<h1 class="resume-section-title"><i class="fa fa-bookmark"></i><?php _e( 'Detalles', 'agrg' ); ?></h1>
+				<h3 class="resume-section-subtitle"><?php _e( '¿Quiénes son los beneficiarios? ¿Cómo se accede?', 'agrg' ); ?></h3>
 
-				<div class="full benefits-block">
-
-					<span class="job-salary-benefits">
-						<span class="job_work_type"><?php echo $wpjobus_job_type; ?></span>
-						<span class="job_remuneration"><?php echo $wpjobus_job_remuneration; ?></span>
-						<span class="job_remuneration_per">/<?php echo $wpjobus_job_remuneration_per; ?></span>
-					</span>
-					<span class="job-salary-benefits-divider"></span>
-
-				</div>
+				
 
 				<div class="job-experience-holder">
 
@@ -661,7 +426,7 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 							<span class="work-experience-first-block-content">
 
-								<span class="work-experience-org-name"><?php _e( 'Benefits', 'agrg' ); ?></span>
+								<span class="work-experience-org-name"><?php _e( 'Destinatarios', 'agrg' ); ?></span>
 
 							</span>
 
@@ -720,8 +485,8 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 				?>
 
-				<h1 class="resume-section-title"><i class="fa fa-briefcase"></i><?php _e( 'Company Information', 'agrg' ); ?></h1>
-				<h3 class="resume-section-subtitle"><?php _e( 'A Brief Overview of the Company which posted this job offer', 'agrg' ); ?></h3>
+				<h1 class="resume-section-title"><i class="fa fa-briefcase"></i><?php _e( 'Sobre la Institución', 'agrg' ); ?></h1>
+				<h3 class="resume-section-subtitle"><?php _e( 'Una breve descripción de la institución que registró esta oportunidad', 'agrg' ); ?></h3>
 
 				<div class="full job-company-desc" style="text-align: center;">
 					<span><img src="<?php echo $wpjobus_company_profile_picture; ?>" alt=""></span>
@@ -742,14 +507,14 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 					<span class="company-est-year-block">
 						<i class="fa fa-calendar"></i>
-						<span class="experience-period"><?php _e( 'Est. In', 'agrg' ); ?></span>
+						<span class="experience-period"><?php _e( 'Desde', 'agrg' ); ?></span>
 						<span class="experience-subtitle"><?php echo $wpjobus_company_foundyear; ?></span>
 					</span>
 
 					<span class="company-team-block">
 						<i class="fa fa-users"></i>
 						<span class="experience-period"><?php echo $company_team_size; ?></span>
-						<span class="experience-subtitle"><?php _e( 'People', 'agrg' ); ?></span>
+						<span class="experience-subtitle"><?php _e( 'Beneficiarios', 'agrg' ); ?></span>
 					</span>
 
 					<?php 
@@ -777,7 +542,7 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 					<span class="company-jobs-block">
 						<i class="fa fa-bullhorn"></i>
 						<span class="experience-period"><?php echo $jobs_offer; ?></span>
-						<span class="experience-subtitle"><?php if($jobs_offer > 1){ ?><?php _e( 'Jobs', 'agrg' ); ?><?php } else { ?><?php _e( 'Job', 'agrg' ); ?><?php } ?></span>
+						<span class="experience-subtitle"><?php if($jobs_offer > 1){ ?><?php _e( 'Oportunidades', 'agrg' ); ?><?php } else { ?><?php _e( 'Job', 'agrg' ); ?><?php } ?></span>
 					</span>
 
 					<?php endif; ?>
@@ -902,7 +667,7 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 				<div class="two_third first">
 
-					<h1 class="resume-section-title" style="margin-bottom: 10px;"><i class="fa fa-list-ul"></i><?php _e( 'Apply for this job', 'agrg' ); ?></h1>
+					<h1 class="resume-section-title" style="margin-bottom: 10px;"><i class="fa fa-list-ul"></i><?php _e( 'Contactar a esta institución', 'agrg' ); ?></h1>
 					<h3 class="resume-section-subtitle"><?php _e( 'Use this contact form to send an email.', 'agrg' ); ?></h3>
 
 					<div id="resume-contact">
@@ -1016,7 +781,7 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 				<div class="one_third">
 
-					<h1 class="resume-section-title" style="margin-bottom: 80px;"><i class="fa fa-envelope"></i><?php _e( 'Contact Details', 'agrg' ); ?></h1>
+					<h1 class="resume-section-title" style="margin-bottom: 80px;"><i class="fa fa-envelope"></i><?php _e( 'Info de contacto', 'agrg' ); ?></h1>
 
 					<span class="resume-contact-info">
 

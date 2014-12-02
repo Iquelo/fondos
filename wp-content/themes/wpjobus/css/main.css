@@ -9061,9 +9061,9 @@ blockquote cite {
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 43%;
+	top: 38%;
 	text-align: center;
-	padding: 80px 30px 30px 30px;
+	padding: 30px 30px 30px 30px;
 	max-width: 760px;
 	border: 3px solid #fff;
 	background: rgba(0, 0, 0, 0.4);
@@ -9333,7 +9333,7 @@ blockquote cite {
 	-moz-osx-font-smoothing: grayscale;
 
 	position: absolute;
-	top: -160px;
+	top: -100px;
 	left: 50%;
 	margin-left: -29px;
 
@@ -9774,7 +9774,7 @@ blockquote cite {
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-	max-width: 140px;
+	max-width: 190px;
 	margin: 10px;
 }
 
@@ -9829,7 +9829,7 @@ blockquote cite {
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-	max-width: 120px;
+	max-width: 200px;
 	margin: 10px;
 }
 
@@ -12161,7 +12161,7 @@ button#submit_add_language:hover, button#submit_add_language:hover .fa, button#s
 }
 
 #companies-block-list-ul li a:hover .company-holder-block {
-	border-bottom: solid 5px #ecf0f1;
+	background-color: rgb(247, 247, 247);
 
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -12171,7 +12171,7 @@ button#submit_add_language:hover, button#submit_add_language:hover .fa, button#s
 }
 
 #companies-block-list-ul li a:hover {
-	border-bottom: solid 1px #16a085;
+	background-color: rgb(247, 247, 247);
 
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
