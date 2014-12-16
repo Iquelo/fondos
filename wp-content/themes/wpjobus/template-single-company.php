@@ -306,7 +306,7 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 				<span class="zebra-line bottom"></span>
 			</div>
 			<?php } ?>
-			<span class="banner-hello">
+			<span class="banner-hello borrar">
 				<span class="company-list-icon" style="float: none;">
 					<span class="helper-company"></span>
 					<img class="center-img-comp" src="<?php echo $wpjobus_company_profile_picture; ?>" alt="">
@@ -314,7 +314,7 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 			</span>
 	      	<h1><?php echo $wpjobus_company_fullname; ?></h1>
 	      	<h2><?php echo $wpjobus_company_tagline; ?></h2>
-	      	<span class="cover-resume-breadcrumbs"><i class="fa fa-home"></i> <i class="fa fa-chevron-right"></i> <?php _e( 'Companies', 'agrg' ); ?> <i class="fa fa-chevron-right"></i>  <?php echo $company_industry; ?> </span>
+	      	<span class="cover-resume-breadcrumbs"><i class="fa fa-home"></i> <i class="fa fa-chevron-right"></i> <?php _e( 'Instituciones', 'agrg' ); ?> <i class="fa fa-chevron-right"></i>  <?php echo $company_industry; ?> </span>
 	    </div>
 
 		<div class="coverImageHolder">
@@ -329,12 +329,12 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 			<ul class="nav navbar-nav">
 
-				<li class="menuItem active backtophome"><a href="#backtop"><i class="fa fa-home"></i><?php _e( 'Home', 'agrg' ); ?></a></li>
-				<li class="menuItem"><a href="#resume-about-block"><i class="fa fa-file-text-o"></i><?php _e( 'Profile', 'agrg' ); ?></a></li>
-				<li class="menuItem"><a href="#resume-jobs-block"><i class="fa fa-bullhorn"></i><?php _e( 'Job Offers', 'agrg' ); ?></a></li>
-				<li class="menuItem"><a href="#resume-experience-block"><i class="fa fa-building"></i><?php _e( 'Clients', 'agrg' ); ?></a></li>
-				<li class="menuItem"><a href="#resume-portfolio-block"><i class="fa fa-bookmark"></i><?php _e( 'Portfolio', 'agrg' ); ?></a></li>
-				<li class="menuItem"><a href="#resume-contact-block"><i class="fa fa-envelope"></i><?php _e( 'Contact', 'agrg' ); ?></a></li>
+				<li class="menuItem active backtophome"><a href="#backtop"><i class="fa fa-home"></i><?php _e( 'Inicio', 'agrg' ); ?></a></li>
+				<li class="menuItem"><a href="#resume-about-block"><i class="fa fa-file-text-o"></i><?php _e( 'Perfil', 'agrg' ); ?></a></li>
+				<li class="menuItem"><a href="#resume-jobs-block"><i class="fa fa-bullhorn"></i><?php _e( 'Servicios', 'agrg' ); ?></a></li>
+				<li class="menuItem"><a href="#map-empresa"><i class="fa fa-map-marker"></i><?php _e( 'Mapa', 'agrg' ); ?></a></li>
+
+				<li class="menuItem"><a href="#resume-contact-block"><i class="fa fa-envelope"></i><?php _e( 'Contacto', 'agrg' ); ?></a></li>
 
 			</ul>
 
@@ -357,7 +357,7 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 		<div class="container">
 
-			<div class="full">
+			<div class="full ">
 
 				<?php 
 
@@ -376,14 +376,14 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 				<span class="company-est-year-block">
 					<i class="fa fa-calendar"></i>
-					<span class="experience-period"><?php _e( 'Est. In', 'agrg' ); ?></span>
+					<span class="experience-period"><?php _e( 'Desde', 'agrg' ); ?></span>
 					<span class="experience-subtitle"><?php echo $wpjobus_company_foundyear; ?></span>
 				</span>
 
 				<span class="company-team-block">
 					<i class="fa fa-users"></i>
 					<span class="experience-period"><?php echo $company_team_size; ?></span>
-					<span class="experience-subtitle"><?php _e( 'People', 'agrg' ); ?></span>
+					<span class="experience-subtitle"><?php _e( 'Beneficiarios', 'agrg' ); ?></span>
 				</span>
 
 				<?php 
@@ -413,7 +413,7 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 				<span class="company-jobs-block">
 					<i class="fa fa-bullhorn"></i>
 					<span class="experience-period"><?php echo $jobs_offer; ?></span>
-					<span class="experience-subtitle"><?php if($jobs_offer > 1){ ?><?php _e( 'Jobs', 'agrg' ); ?><?php } else { ?><?php _e( 'Job', 'agrg' ); ?><?php } ?></span>
+					<span class="experience-subtitle"><?php if($jobs_offer > 1){ ?><?php _e( 'Instrumentos', 'agrg' ); ?><?php } else { ?><?php _e( 'Job', 'agrg' ); ?><?php } ?></span>
 				</span>
 
 				<?php endif; ?>
@@ -459,12 +459,11 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 				<?php if (!empty($wpjobus_company_expertise)) { ?>
 
-				<div class="divider"></div>
+				<div class="divider borrar"></div>
 
-				<h1 class="resume-section-title"><i class="fa fa-cogs"></i><?php _e( 'Expertise', 'agrg' ); ?></h1>
-				<h3 class="resume-section-subtitle"><?php _e( 'What we are good at.', 'agrg' ); ?></h3>
-
-				<div class="full hobbies-block" style="text-align: center;">
+				<h1 class="resume-section-title borrar"><i class="fa fa-cogs"></i><?php _e( 'Expertise', 'agrg' ); ?></h1>
+				
+				<div class="full hobbies-block borrar" style="text-align: center;">
 
 					<?php $wpjobus_company_expertise = str_replace(", ", ",", $wpjobus_company_expertise); $wpjobus_company_expertise = str_replace(",", "</span><span class='hobbies-item'>", $wpjobus_company_expertise); ?>
 
@@ -486,8 +485,8 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 			<div class="resume-skills">
 
-				<h1 class="resume-section-title"><i class="fa fa-bullhorn"></i><?php _e( 'Job Offers', 'agrg' ); ?></h1>
-				<h3 class="resume-section-subtitle"><?php _e( 'We’re hiring! Please check our job offers and contact us.', 'agrg' ); ?></h3>
+				<h1 class="resume-section-title"><i class="fa fa-bullhorn"></i><?php _e( 'Fondos que ofrece', 'agrg' ); ?></h1>
+				<h3 class="resume-section-subtitle borrar"><?php _e( 'We’re hiring! Please check our job offers and contact us.', 'agrg' ); ?></h3>
 
 				<div class="work-experience-holder">
 
@@ -516,7 +515,7 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 					     		</div>
 
 					     		<div class="one_third" style="margin-bottom: 0;">
-					     			<span class="job-time"><i class="fa fa-calendar"></i><?php the_time('F jS, Y') ?></span>
+					     			<span class="job-time borrar"><i class="fa fa-calendar"></i><?php the_time('F jS, Y') ?></span>
 					     		</div>
 
 					     		<div class="one_third" style="margin-bottom: 0;">
@@ -568,8 +567,8 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 					     			<span class="job-offers-post-badge" style="<?php if($colorState ==1) { ?>background-color: <?php echo $color; ?>; border: solid 2px <?php echo $color; ?>;<?php } ?>">
 										<span class="job-offers-post-badge-job-type" style="<?php if($colorState ==1) { ?>color: <?php echo $color; ?>;<?php } ?>"><?php echo $wpjobus_job_type = esc_attr(get_post_meta($post->ID, 'wpjobus_job_type',true)); ?></span>
-										<span class="job-offers-post-badge-amount"><?php echo $wpjobus_job_remuneration = esc_attr(get_post_meta($post->ID, 'wpjobus_job_remuneration',true)); ?></span>
-										<span class="job-offers-post-badge-amount-per">/<?php echo $wpjobus_job_remuneration_per = esc_attr(get_post_meta($post->ID, 'wpjobus_job_remuneration_per',true)); ?></span>
+										<span class="job-offers-post-badge-amount borrar"><?php echo $wpjobus_job_remuneration = esc_attr(get_post_meta($post->ID, 'wpjobus_job_remuneration',true)); ?></span>
+										<span class="job-offers-post-badge-amount-per borrar">/<?php echo $wpjobus_job_remuneration_per = esc_attr(get_post_meta($post->ID, 'wpjobus_job_remuneration_per',true)); ?></span>
 									</span>
 					     		</div>
 
@@ -594,7 +593,7 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 		<div class="container">
 
-			<div class="resume-skills">
+			<div class="resume-skills borrar">
 
 				<h1 class="resume-section-title"><i class="fa fa-building"></i><?php _e( 'Clients', 'agrg' ); ?></h1>
 				<h3 class="resume-section-subtitle"><?php _e( 'Here’s a list of companies which are our beloved clients.', 'agrg' ); ?></h3>
@@ -710,11 +709,11 @@ $wpcrown_contact_test_error = esc_attr($redux_demo['contact-test-error']);
 
 	</section>
 
-	<section id="resume-portfolio-block">
+	<section class="borrar" id="resume-portfolio-block">
 
 		<div class="container">
 
-			<h1 class="resume-section-title"><i class="fa fa-bookmark"></i><?php _e( 'Portfolio', 'agrg' ); ?></h1>
+			<h1 class="resume-section-title "><i class="fa fa-bookmark"></i><?php _e( 'Portfolio', 'agrg' ); ?></h1>
 			<h3 class="resume-section-subtitle"><?php _e( 'Here are some of my works.', 'agrg' ); ?></h3>
 
 			<section class="ff-container">

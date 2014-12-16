@@ -550,7 +550,7 @@ function wpjobusSubmitCompaniesFilter() {
 
 							</span>
 
-							<span class="company-list-badges">
+							<span class="company-list-badges borrar">
 
 							  	<span class="company-est-year-block">
 									<i class="fa fa-calendar"></i>

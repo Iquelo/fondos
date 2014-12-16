@@ -291,8 +291,8 @@ get_header(); ?>
 					<div class="two_third first">
 
 						<div class="full">
-							<h1 class="resume-section-title"><i class="fa fa-search"></i><?php _e( 'Search for Companies', 'agrg' ); ?></h1>
-							<h3 class="resume-section-subtitle" style="margin-bottom: 0;"><?php _e( 'Use our awesome search tool to find companies’profiles!', 'agrg' ); ?></h3>
+							<h1 class="resume-section-title"><i class="fa fa-search"></i><?php _e( 'Buscar instituciones', 'agrg' ); ?></h1>
+							<h3 class="resume-section-subtitle borrar" style="margin-bottom: 0;"><?php _e( 'Use our awesome search tool to find companies’profiles!', 'agrg' ); ?></h3>
 						</div>
 
 						<div class="full" style="margin-bottom: 0;">
@@ -376,8 +376,10 @@ get_header(); ?>
 											<span class="company-list-name"><?php echo $wpjobus_company_fullname; ?></span>
 											<span class="company-list-location"><i class="fa fa-map-marker"></i><?php echo $company_location; ?>
 											</span>
+											
+											
 										</span>
-
+										
 										<span class="company-list-view-profile">
 
 											<span class="company-view-profile">
@@ -390,7 +392,7 @@ get_header(); ?>
 
 										</span>
 
-										<span class="company-list-badges">
+										<span class="company-list-badges borrar">
 
 											<span class="company-est-year-block">
 												<i class="fa fa-calendar"></i>
@@ -507,9 +509,9 @@ get_header(); ?>
 
 						?>
 
-						<span class="filters-title"><i class="fa fa-star"></i><?php _e( 'Featured Companies!', 'agrg' ); ?></span>
+						<span class="filters-title borrar"><i class="fa fa-star"></i><?php _e( 'Featured Companies!', 'agrg' ); ?></span>
 
-						<div id="owl-demo" class="owl-carousel owl-theme featured-items">
+						<div id="owl-demo borrar" class="owl-carousel owl-theme featured-items">
 
 							<?php foreach($wpjobus_jobs as $job) {
 
@@ -626,17 +628,106 @@ get_header(); ?>
 							<span class="filters-title"><?php _e( 'Search & Refinements', 'agrg' ); ?></span>
 
 							<div class="full sidebar-widget-bottom-line">
+							<div class="full" style="margin-bottom: 0;">
 
-								<div class="full" style="margin-bottom: 0;">
-
-									<input type="text" name="comp_keyword" id="comp_keyword" value="<?php if (!empty($keyword)) { echo $keyword; } ?>" placeholder="<?php _e( 'Type and press enter...', 'agrg' ); ?>" style="margin-bottom: 15px;" >
+									<input type="text" name="comp_keyword" id="comp_keyword" value="<?php if (!empty($keyword)) { echo $keyword; } ?>" placeholder="<?php _e( 'Escribe y presiona enter...', 'agrg' ); ?>" style="margin-bottom: 15px;" >
 									<div id="search-results"></div>
 
 								</div>
 
-								<div class="three_fifth first">
+								<div class="one_half borrar">
 
-									<span class="filters-subtitle"><?php _e( 'Categories', 'agrg' ); ?></span>
+									<span class="filters-subtitle"><?php _e( 'Has Job Offers', 'agrg' ); ?></span>
+
+									<ul class="filters-lists-main">
+										
+										<li class="filters-has-jobs-all active">
+											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php _e( 'All Companies', 'agrg' ); ?>
+											<input type="hidden" class="filters-has-jobs-all-input" name="filters_has_jobs_all" value="1" />
+										</li>
+
+										<li class="filters-has-jobs-yes">
+											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php _e( 'Has Job Offer', 'agrg' ); ?>
+											<input type="hidden" class="filters-has-jobs-yes-input" name="filters_has_jobs_yes" value="" />
+										</li>
+
+										<li class="filters-has-jobs-no">
+											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php _e( 'No Job Offer', 'agrg' ); ?>
+											<input type="hidden" class="filters-has-jobs-no-input" name="filters_has_jobs_no" value="" />
+										</li>
+
+									</ul>
+
+								</div>
+
+								<div class="one_half first">
+
+									<span class="filters-subtitle"><?php _e( 'Job Offers', 'agrg' ); ?></span>
+
+									<ul class="filters-lists">
+
+										<li class="filters-list-all">
+											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php _e( 'All Types', 'agrg' ); ?>
+											<input type="hidden" class="job_presence_type_option" name="job_presence_type_all" value="1" />
+										</li>
+
+										<?php 
+											global $redux_demo; 
+											for ($i = 0; $i < count($redux_demo['job-type']); $i++) {
+										?>
+										
+										<li class="filters-list-one">
+											<i id="job-type[<?php echo $i; ?>]" class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php echo $redux_demo['job-type'][$i]; ?>
+											<input type="hidden" class="job_presence_type_option_value" name="job_presence_type_value[<?php echo $i; ?>]" value="<?php echo $redux_demo['job-type'][$i]; ?>" />
+											<input type="hidden" class="job_presence_type_option" name="job_presence_type[<?php echo $i; ?>]" value="" />
+										</li>
+
+										<?php 
+											}
+										?>
+
+									</ul>
+
+								</div>
+								
+								<div class="one_half">
+
+									<span class="filters-subtitle"><?php _e( 'Locations', 'agrg' ); ?></span>
+
+									<ul class="filters-lists-location">
+
+										<li class="filters-list-location-all <?php if(empty($job_location)) { ?>active<?php }?>">
+											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php _e( 'All Locations', 'agrg' ); ?>
+											<input type="hidden" class="company-location-all" name="company_location_all" value="<?php if(empty($job_location)) { ?>1<?php } ?>" />
+										</li>
+
+										<?php 
+											global $redux_demo; 
+											for ($i = 0; $i < count($redux_demo['resume-locations']); $i++) {
+										?>
+										
+										<li class="filters-list-location <?php if($job_location == $redux_demo['resume-locations'][$i] ) { ?>active<?php } ?>">
+											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php echo $redux_demo['resume-locations'][$i]; ?>
+											<input type="hidden" class="company-location-value" name="company_location_value[<?php echo $i; ?>]" value="<?php echo $redux_demo['resume-locations'][$i]; ?>" />
+											<input type="hidden" class="company-location" name="company_location[<?php echo $i; ?>]" value="<?php if($job_location == $redux_demo['resume-locations'][$i] ) { echo $redux_demo['resume-locations'][$i]; } ?>" />
+										</li>
+
+										<?php 
+											}
+										?>
+
+									</ul>
+
+								</div>
+
+							</div>
+							
+							<div class="full sidebar-widget-bottom-line">
+
+								
+								<div class="full">
+
+									<span class="filters-subtitle"><?php _e( 'Tipo de prestación', 'agrg' ); ?></span>
 
 									<ul class="filters-lists-category">
 
@@ -664,7 +755,7 @@ get_header(); ?>
 
 								</div>
 
-								<div class="two_fifth">
+								<div class="two_fifth borrar">
 
 									<span class="filters-subtitle"><?php _e( 'Locations', 'agrg' ); ?></span>
 
@@ -696,7 +787,7 @@ get_header(); ?>
 
 							</div>
 
-							<div class="full sidebar-widget-bottom-line">
+							<div class="full sidebar-widget-bottom-line borrar">
 
 								<span class="filters-subtitle"><?php _e( 'Established Since', 'agrg' ); ?></span>
 
@@ -754,7 +845,7 @@ get_header(); ?>
 
 							</div>
 
-							<div class="full sidebar-widget-bottom-line">
+							<div class="full sidebar-widget-bottom-line borrar">
 
 								<span class="filters-subtitle"><?php _e( 'Team Size', 'agrg' ); ?></span>
 
@@ -766,64 +857,7 @@ get_header(); ?>
 
 							</div>
 
-							<div class="full sidebar-widget-bottom-line">
-
-								<div class="one_half first">
-
-									<span class="filters-subtitle"><?php _e( 'Has Job Offers', 'agrg' ); ?></span>
-
-									<ul class="filters-lists-main">
-										
-										<li class="filters-has-jobs-all active">
-											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php _e( 'All Companies', 'agrg' ); ?>
-											<input type="hidden" class="filters-has-jobs-all-input" name="filters_has_jobs_all" value="1" />
-										</li>
-
-										<li class="filters-has-jobs-yes">
-											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php _e( 'Has Job Offer', 'agrg' ); ?>
-											<input type="hidden" class="filters-has-jobs-yes-input" name="filters_has_jobs_yes" value="" />
-										</li>
-
-										<li class="filters-has-jobs-no">
-											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php _e( 'No Job Offer', 'agrg' ); ?>
-											<input type="hidden" class="filters-has-jobs-no-input" name="filters_has_jobs_no" value="" />
-										</li>
-
-									</ul>
-
-								</div>
-
-								<div class="one_half">
-
-									<span class="filters-subtitle"><?php _e( 'Job Offers', 'agrg' ); ?></span>
-
-									<ul class="filters-lists">
-
-										<li class="filters-list-all">
-											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php _e( 'All Types', 'agrg' ); ?>
-											<input type="hidden" class="job_presence_type_option" name="job_presence_type_all" value="1" />
-										</li>
-
-										<?php 
-											global $redux_demo; 
-											for ($i = 0; $i < count($redux_demo['job-type']); $i++) {
-										?>
-										
-										<li class="filters-list-one">
-											<i id="job-type[<?php echo $i; ?>]" class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php echo $redux_demo['job-type'][$i]; ?>
-											<input type="hidden" class="job_presence_type_option_value" name="job_presence_type_value[<?php echo $i; ?>]" value="<?php echo $redux_demo['job-type'][$i]; ?>" />
-											<input type="hidden" class="job_presence_type_option" name="job_presence_type[<?php echo $i; ?>]" value="" />
-										</li>
-
-										<?php 
-											}
-										?>
-
-									</ul>
-
-								</div>
-
-							</div>
+						
 
 							<div class="full" style="margin-bottom: 0; text-align: center;">
 
@@ -1377,8 +1411,8 @@ get_header(); ?>
 			</div>
 
 			<div class="full">
-				<h1 class="resume-section-title"><i class="fa fa-files-o"></i><?php _e( 'Recent News', 'agrg' ); ?></h1>
-				<h3 class="resume-section-subtitle" style="margin-bottom: 0;"><?php _e( 'These are the latest news from our blog.', 'agrg' ); ?></h3>
+				<h1 class="resume-section-title"><i class="fa fa-files-o"></i><?php _e( 'Tutoriales', 'agrg' ); ?></h1>
+				<h3 class="resume-section-subtitle borrar" style="margin-bottom: 0;"><?php _e( 'These are the latest news from our blog.', 'agrg' ); ?></h3>
 			</div>
 
 			<?php
@@ -1424,7 +1458,7 @@ get_header(); ?>
 
 				<h3 style="float: left; width: 100%; text-align: center; margin: 0;"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
 
-				<div class="full post-meta" style="margin-bottom: 0;">
+				<div class="full post-meta borrar" style="margin-bottom: 0;">
 					<p><i class="fa fa-user" style="margin: 0 10px;"></i><?php the_author_posts_link(); ?><i class="fa fa-clock-o" style="margin: 0 10px;"></i><a href="<?php echo get_month_link(get_the_time('Y'), get_the_time('m')); ?>"><?php the_time('M j, Y') ?></a><i class="fa fa-comment" style="margin: 0 10px;"></i><a href="<?php comments_link(); ?>"><?php $my_comments = get_comments_number( $post->ID ); echo $my_comments; ?></a></p>
 				</div>
 

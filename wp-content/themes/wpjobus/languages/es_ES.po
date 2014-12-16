@@ -236,7 +236,7 @@ msgstr "<span class=\"meta-nav\">&larr;</span> Entradas antiguas"
 #: template-single-job.php:506
 msgid "A Brief Overview of the Company which posted this job offer"
 msgstr ""
-"Una breve descripción de la empresa que registró esta oferta de trabajo"
+"Una breve descripción de la institución que registró esta oferta de trabajo"
 
 #. Text in echo
 #: template-single-resume.php:123 template-single-resume.php:135
@@ -261,7 +261,7 @@ msgstr "La cuenta se ha actualziado con éxito."
 #. Text in echo
 #: template-my-account.php:1311
 msgid "Activate Company"
-msgstr "Activar la Empresa"
+msgstr "Activar la institución"
 
 #. Text in echo
 #: template-my-account.php:404
@@ -271,12 +271,12 @@ msgstr "Activar el Curriculum"
 #. Text in echo
 #: template-add-job.php:59
 msgid "Add Company"
-msgstr "Añadir Empresa"
+msgstr "Añadir institución"
 
 #. Text in echo
 #: template-my-account.php:612 template-add-company.php:36
 msgid "Add Company Profile"
-msgstr "Añadir Perfil de la Empresa"
+msgstr "Añadir Perfil de la institución"
 
 #. Text in echo
 #: template-my-account.php:1049 template-add-job.php:78
@@ -291,7 +291,7 @@ msgstr "Nuevo"
 #. Text in function
 #: inc/company.php:1
 msgid "Add New Company"
-msgstr "Añadir Empresa Nueva"
+msgstr "Añadir Nueva Institución"
 
 #. Text in function
 #: inc/job.php:1
@@ -408,7 +408,7 @@ msgstr "Todas las Categorías"
 #. Text in echo
 #: template-companies.php:697
 msgid "All Companies"
-msgstr "Todas las Empresas"
+msgstr "Todas las Instituciones"
 
 #. Text in echo
 #: template-resumes.php:619 template-companies.php:593 template-jobs.php:722
@@ -573,38 +573,38 @@ msgstr "Nivel de Comunicación"
 #. Text in echo
 #: header.php:108 template-single-company.php:110
 msgid "Companies"
-msgstr "Empresas"
+msgstr "Instituciones"
 
 #. Text in echo
 #: template-pendings.php:110 header.php:108 header.php:289
 #: template-my-account.php:998 template-my-account.php:1056
 msgid "Company"
-msgstr "Empresa"
+msgstr "institución"
 
 #. Text in echo
 #: template-single-job.php:505
 msgid "Company Information"
-msgstr "Información de la Empresa"
+msgstr "Información de la institución"
 
 #. Text in echo
 #: template-edit-company.php:128 template-add-company.php:48
 msgid "Company Name:"
-msgstr "Nombre de la Empresa:"
+msgstr "Nombre de la institución:"
 
 #. Text in echo
 #: template-edit-company.php:1656 template-add-company.php:1574
 msgid "Company Profile Saved Successful."
-msgstr "El Perfil de la Empresa se ha Guardado con Éxito."
+msgstr "El Perfil de la institución se ha Guardado con Éxito."
 
 #. Text in echo
 #: template-my-account.php:611
 msgid "Company Profiles"
-msgstr "Perfiles de las Empresas"
+msgstr "Perfiles de las Instituciones"
 
 #. Text in echo
 #: template-edit-job.php:236 template-add-job.php:211
 msgid "Company:"
-msgstr "Empresa:"
+msgstr "institución:"
 
 #. Text in echo
 #: template-add-resume.php:1296 template-edit-resume.php:1381
@@ -743,12 +743,12 @@ msgstr "Editar"
 #. Text in function
 #: inc/company.php:1
 msgid "Edit Company"
-msgstr "Editar Empresa"
+msgstr "Editar institución"
 
 #. Text in echo
 #: template-edit-company.php:116
 msgid "Edit Company Profile"
-msgstr "Editar el Perfil de la Empresa"
+msgstr "Editar el Perfil de la institución"
 
 #. Text in function
 #: inc/job.php:1
@@ -854,7 +854,7 @@ msgstr "Destacar"
 #. Text in echo
 #: template-companies.php:427
 msgid "Featured Companies!"
-msgstr "Empresas Destacadas!"
+msgstr "Instituciones Destacadas!"
 
 #. Text in echo
 #: template-jobs.php:442
@@ -989,13 +989,13 @@ msgid ""
 "Here’s a list of companies where I worked and gained my professional "
 "experience."
 msgstr ""
-"Aquí hay una lista con las empresas en las que he trabajado para conseguir "
+"Aquí hay una lista con las Instituciones en las que he trabajado para conseguir "
 "mi experiencia profesional."
 
 #. Text in echo
 #: template-single-company.php:390
 msgid "Here’s a list of companies which are our beloved clients."
-msgstr "Aquí hay una lista con las empresas que son nuestros clientes."
+msgstr "Aquí hay una lista con las Instituciones que son nuestros clientes."
 
 #. Text in echo
 #: template-single-resume.php:467
@@ -1028,7 +1028,7 @@ msgstr "Aquí hay lo que la gete dice de mí."
 #. Text in echo
 #: template-single-company.php:452
 msgid "Here’s what clients are saying about our company. "
-msgstr "Aquí hay lo que los clientes dicen de nuestra empresa."
+msgstr "Aquí hay lo que los clientes dicen de nuestra institución."
 
 #. Text in echo
 #: template-single-job.php:427
@@ -1042,7 +1042,7 @@ msgid ""
 "below. You’ll have a beautifull company page!"
 msgstr ""
 "Hey. Es más fácil de lo que parece. Respira hondo y completa los campos "
-"inferiores. ¡Tendrás una buena página de tu empresa!"
+"inferiores. ¡Tendrás una buena página de tu institución!"
 
 #. Text in echo
 #: template-edit-job.php:104 template-add-job.php:79
@@ -1066,7 +1066,7 @@ msgstr ""
 #: template-add-job.php:54
 msgid "Hey. You need to add a company profile before posting a job offer!"
 msgstr ""
-"Hey. ¡Necesitas añadir una empresa antes de añadir un puesto de trabajo!"
+"Hey. ¡Necesitas añadir una institución antes de añadir un puesto de trabajo!"
 
 #. Text in echo
 #: template-single-resume.php:433
@@ -1196,92 +1196,92 @@ msgstr "Para:"
 #: template-companies.php:350 template-companies.php:509 header.php:62
 #: header.php:275 template-single-company.php:209 template-single-job.php:562
 msgid "Job"
-msgstr "Empleo"
+msgstr "Instrumento"
 
 #. Text in echo
 #: template-single-job.php:99 template-single-job.php:108
 msgid "Job Application"
-msgstr "Solicitud de Empleo"
+msgstr "Solicitud de Instrumento"
 
 #. Text in echo
 #: template-edit-job.php:271 template-add-job.php:246
 msgid "Job Description:"
-msgstr "Descripción de Empleo:"
+msgstr "Descripción de Instrumento:"
 
 #. Text in echo
 #: inc/jobs-filters.php:380 template-my-account.php:1418 template-jobs.php:308
 msgid "Job Offer"
-msgstr "Oferta de Empleo:"
+msgstr "Oferta de Instrumento:"
 
 #. Text in echo
 #: template-add-job.php:1327
 msgid "Job Offer Saved Successful."
-msgstr "La Oferta de Empleo se ha Guardado con Éxito."
+msgstr "La Oferta de Instrumento se ha Guardado con Éxito."
 
 #. Text in echo
 #: template-edit-job.php:1352
 msgid "Job Offer Updated Successful."
-msgstr "La Oferta de Empleo se ha Actualziado con Éxito."
+msgstr "La Oferta de Instrumento se ha Actualziado con Éxito."
 
 #. Text in echo
 #: template-companies.php:717 template-my-account.php:1048
 #: template-single-company.php:127 template-single-company.php:138
 #: template-single-company.php:279
 msgid "Job Offers"
-msgstr "Ofertas de Empleo"
+msgstr "Ofertas de Instrumento"
 
 #. Text in echo
 #: template-add-resume.php:1483 template-edit-resume.php:1568
 msgid "Job Position:"
-msgstr "Posición de Empleo:"
+msgstr "Posición de Instrumento:"
 
 #. Text in echo
 #: template-single-resume.php:255 template-single-job.php:210
 msgid "Job Related"
-msgstr "Empleo Relacionado"
+msgstr "Instrumento Relacionado"
 
 #. Text in echo
 #: template-add-resume.php:627 template-edit-job.php:510
 #: template-edit-resume.php:712 template-add-job.php:485
 msgid "Job Related level:"
-msgstr "Nivel Relacionado con el Empleo:"
+msgstr "Nivel Relacionado con el Instrumento:"
 
 #. Text in echo
 #: template-edit-job.php:115 template-add-job.php:90
 msgid "Job Title:"
-msgstr "Título de Empleo:"
+msgstr "Título de Instrumento:"
 
 #. Text in echo
 #: template-edit-job.php:928 template-add-job.php:903
 msgid "Job Type:"
-msgstr "Tipo de Empleo:"
+msgstr "Tipo de Instrumento:"
 
 #. Text in echo
 #: template-resumes.php:720 template-jobs.php:687
 msgid "Job Types"
-msgstr "Tipos de Empleo"
+msgstr "Tipos de Instrumento"
 
 #. Text in echo
 #: template-single-resume.php:169
 msgid "Job Types I am looking for:"
-msgstr "Tipos de Empleo que Busco:"
+msgstr "Tipos de Instrumento que Busco:"
 
 #. Text in echo
 #: template-add-resume.php:1897 template-edit-resume.php:1982
 msgid "Job Types:"
-msgstr "Tipos de Empleo:"
+msgstr "Tipos de Instrumento:"
 
 #. Text in echo
 #: template-add-resume.php:1509 template-edit-resume.php:1594
 msgid "Job type:"
-msgstr "Tipo de Empleo:"
+msgstr "Tipo de Instrumento:"
 
 #. Text in echo
 #: inc/companies-filters.php:540 template-companies.php:350
 #: template-companies.php:509 header.php:62 template-single-company.php:209
 #: template-single-job.php:81 template-single-job.php:562
 msgid "Jobs"
-msgstr "Empleos"
+msgstr "Instrumentos"
 
 #. Text in echo
 #: template-add-resume.php:805 template-add-resume.php:892
@@ -1306,7 +1306,7 @@ msgstr "Latitud:"
 #. Text in echo
 #: template-add-resume.php:1847 template-edit-resume.php:1932
 msgid "Let companies know your financial expectations."
-msgstr "Deja que las empresas sepan tus expectativas financieras."
+msgstr "Deja que las Instituciones sepan tus expectativas financieras."
 
 #. Text in echo
 #: template-add-resume.php:1181 template-edit-resume.php:1266
@@ -1470,7 +1470,7 @@ msgid ""
 "company was contracted for."
 msgstr ""
 "Nombra algunos clientes importates de tu portafolio y describe para qué tu "
-"empresa ha sido contratada."
+"institución ha sido contratada."
 
 #. Text in echo
 #: template-edit-company.php:1727 template-edit-job.php:1423
@@ -1512,12 +1512,12 @@ msgstr "Menú de Navegación"
 #. Text in function
 #: inc/company.php:1
 msgid "New Company"
-msgstr "Nueva Empresa"
+msgstr "Nueva institución"
 
 #. Text in function
 #: inc/job.php:1
 msgid "New Job"
-msgstr "Nuevo Empleo"
+msgstr "Nuevo Instrumento"
 
 #. Text in function
 #: inc/quotes.php:1
@@ -1545,27 +1545,27 @@ msgstr "Siguente »"
 #. Text in function
 #: inc/company.php:1
 msgid "No Companies found"
-msgstr "No se han encontrado empresas"
+msgstr "No se han encontrado Instituciones"
 
 #. Text in function
 #: inc/company.php:1
 msgid "No Companies found in Trash"
-msgstr "No se han encontrado empresas en la papelera"
+msgstr "No se han encontrado Instituciones en la papelera"
 
 #. Text in echo
 #: template-companies.php:707
 msgid "No Job Offer"
-msgstr "No hay ofertas de empleo"
+msgstr "No hay ofertas de Instrumento"
 
 #. Text in function
 #: inc/job.php:1
 msgid "No Jobs found"
-msgstr "No se han encontrado empleos"
+msgstr "No se han encontrado Instrumentos"
 
 #. Text in function
 #: inc/job.php:1
 msgid "No Jobs found in Trash"
-msgstr "No se han encontrado empleos en la papelera"
+msgstr "No se han encontrado Instrumentos en la papelera"
 
 #. Text in function
 #: inc/quotes.php:1
@@ -1849,7 +1849,7 @@ msgstr "Publicar"
 #. Text in echo
 #: template-edit-company.php:1408 template-add-company.php:1326
 msgid "Publish company email address"
-msgstr "Publicar la dirección de correo electrónico de la empresa"
+msgstr "Publicar la dirección de correo electrónico de la institución"
 
 #. Text in echo
 #: template-add-resume.php:2269 template-edit-job.php:1104
@@ -1931,7 +1931,7 @@ msgstr "Habilidades Necesarias"
 #. Text in echo
 #: template-edit-job.php:385 template-add-job.php:360
 msgid "Rescribe the required skills and expertise for this job."
-msgstr "Describa las habilidades necesarias para este empleo"
+msgstr "Describa las habilidades necesarias para este Instrumento"
 
 #. Text in echo
 #: template-resumes.php:756 template-companies.php:749 template-jobs.php:749
@@ -1988,7 +1988,7 @@ msgstr "Sueldo y Beneficios"
 #. Text in echo
 #: template-add-resume.php:1846 template-edit-resume.php:1931
 msgid "Salary & Job Types"
-msgstr "Sueldo y Tipos de Empleo"
+msgstr "Sueldo y Tipos de Instrumento"
 
 #. Text in echo
 #: template-single-job.php:98 template-single-job.php:107
@@ -2010,12 +2010,12 @@ msgstr "Búsqueda y Matices"
 #. Text in function
 #: inc/company.php:1
 msgid "Search Companies"
-msgstr "Buscar Empresas"
+msgstr "Buscar"
 
 #. Text in function
 #: inc/job.php:1
 msgid "Search Jobs"
-msgstr "Buscar Empleos"
+msgstr "Buscar Instrumentos"
 
 #. Text in function
 #: inc/resume.php:1
@@ -2030,12 +2030,12 @@ msgstr "Buscar Testimonios"
 #. Text in echo
 #: template-companies.php:222
 msgid "Search for Companies"
-msgstr "Buscar Empresas"
+msgstr "Buscar"
 
 #. Text in echo
 #: template-jobs.php:219
 msgid "Search for Jobs"
-msgstr "Buscar Empleos"
+msgstr "Buscar Instrumentos"
 
 #. Text in echo
 #: template-resumes.php:223
@@ -2139,12 +2139,12 @@ msgstr "Presentar"
 #. Text in echo
 #: template-add-company.php:1615
 msgid "Submit Company Profile"
-msgstr "Presentar el Perfil de la Empresa"
+msgstr "Presentar el Perfil de la institución"
 
 #. Text in echo
 #: template-add-company.php:1615
 msgid "Submit Company Profile For Review"
-msgstr "Presentar el Perfil de la Empresa para la revisión"
+msgstr "Presentar el Perfil de la institución para la revisión"
 
 #. Text in echo
 #: template-add-job.php:1368
@@ -2251,12 +2251,12 @@ msgstr "Actualizar"
 #. Text in echo
 #: template-edit-company.php:1690
 msgid "Update Company Profile"
-msgstr "Actualizar el Perfil de la Empresa"
+msgstr "Actualizar el Perfil de la institución"
 
 #. Text in echo
 #: template-edit-company.php:1690
 msgid "Update Company Profile For Review"
-msgstr "Actualizar el Perfil de la Empresa para Revisión"
+msgstr "Actualizar el Perfil de la Institución para Revisión"
 
 #. Text in echo
 #: template-edit-job.php:1386
@@ -2289,14 +2289,14 @@ msgstr "¡Sube tu mejor trabajo!"
 msgid "Use our awesome search tool to find companies’profiles!"
 msgstr ""
 "¡Utiliza nuestra increíble herramienta de búsqueda para encontrar perfiles "
-"de empresas!"
+"de Instituciones!"
 
 #. Text in echo
 #: template-jobs.php:220
 msgid "Use our awesome search tool to find job offers!"
 msgstr ""
 "¡Utiliza nuestra increíble herramienta de búsqueda para encontrar ofertas de "
-"empleo!"
+"Instrumento!"
 
 #. Text in echo
 #: template-resumes.php:224
@@ -2347,17 +2347,17 @@ msgstr "Ver"
 #. Text in function
 #: inc/company.php:1
 msgid "View Company"
-msgstr "Ver Empresa"
+msgstr "Ver institución"
 
 #. Text in function
 #: inc/job.php:1
 msgid "View Job"
-msgstr "Ver Empleo"
+msgstr "Ver Instrumento"
 
 #. Text in echo
 #: inc/jobs-filters.php:565 template-jobs.php:106
 msgid "View Job Offer"
-msgstr "Ver Oferta de Empleo"
+msgstr "Ver Oferta de Instrumento"
 
 #. Text in echo
 #: inc/companies-filters.php:1086 template-companies.php:109
@@ -2393,7 +2393,7 @@ msgstr "Visibilidad"
 #. Text in echo
 #: template-single-company.php:372
 msgid "We are sorry, but there are no jobs available."
-msgstr "Lo sentimos, pero no hay empleos disponibles."
+msgstr "Lo sentimos, pero no hay Instrumentos disponibles."
 
 #. Text in echo
 #: template-add-resume.php:2251 template-edit-company.php:1390
@@ -2426,7 +2426,7 @@ msgstr ""
 #: template-single-company.php:280
 msgid "We’re hiring! Please check our job offers and contact us."
 msgstr ""
-"¡Estamos contratando! Por favor, compruebe nuestras ofertas de empleo y "
+"¡Estamos contratando! Por favor, compruebe nuestras ofertas de Instrumento y "
 "contáctenos."
 
 #. Text in echo
@@ -2515,8 +2515,8 @@ msgid ""
 "You’ll be able to post your resume, apply for a job, add companies profiles "
 "and post job offers!"
 msgstr ""
-"¡Podrás publicar tu curriculum, aplicar para un empleo, añadir perfiles de "
-"empresas y publicar ofertas de empleo!"
+"¡Podrás publicar tu curriculum, aplicar para un Instrumento, añadir perfiles de "
+"Instituciones y publicar ofertas de Instrumento!"
 
 #. Text in echo
 #: inc/jobs-filters.php:371 template-my-account.php:668

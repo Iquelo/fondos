@@ -290,8 +290,8 @@ get_header(); ?>
 					<div class="two_third first">
 
 						<div class="full">
-							<h1 class="resume-section-title"><i class="fa fa-search"></i><?php _e( 'Search for Jobs', 'agrg' ); ?></h1>
-							<h3 class="resume-section-subtitle" style="margin-bottom: 0;"><?php _e( 'Use our awesome search tool to find job offers!', 'agrg' ); ?></h3>
+							<h1 class="resume-section-title"><i class="fa fa-search"></i><?php _e( 'Buscar Oportunidades', 'agrg' ); ?></h1>
+							<h3 class="resume-section-subtitle borrar" style="margin-bottom: 0;"><?php _e( 'Use our awesome search tool to find job offers!', 'agrg' ); ?></h3>
 						</div>
 
 						<div class="full" style="margin-bottom: 0;">
@@ -446,8 +446,8 @@ get_header(); ?>
 
 											<span class="job-offers-post-badge" style="max-width: 220px; <?php if($colorState ==1) { ?>background-color: <?php echo $color; ?>; border: solid 2px <?php echo $color; ?>;<?php } ?>">
 												<span class="job-offers-post-badge-job-type" style="width: 110px; <?php if($colorState ==1) { ?>color: <?php echo $color; ?>;<?php } ?>"><?php echo $wpjobus_job_type = esc_attr(get_post_meta($company_id, 'wpjobus_job_type',true)); ?></span>
-												<span class="job-offers-post-badge-amount"><?php echo $wpjobus_job_remuneration = esc_attr(get_post_meta($company_id, 'wpjobus_job_remuneration',true)); ?></span>
-												<span class="job-offers-post-badge-amount-per">/<?php echo $wpjobus_job_remuneration_per = esc_attr(get_post_meta($company_id, 'wpjobus_job_remuneration_per',true)); ?></span>
+												<span class="job-offers-post-badge-amount borrar"><?php echo $wpjobus_job_remuneration = esc_attr(get_post_meta($company_id, 'wpjobus_job_remuneration',true)); ?></span>
+												<span class="job-offers-post-badge-amount-per borrar">/<?php echo $wpjobus_job_remuneration_per = esc_attr(get_post_meta($company_id, 'wpjobus_job_remuneration_per',true)); ?></span>
 											</span>
 
 										</span>
@@ -524,9 +524,9 @@ get_header(); ?>
 
 						?>
 
-						<span class="filters-title"><i class="fa fa-star"></i><?php _e( 'Featured Jobs!', 'agrg' ); ?></span>
+						<span class="filters-title borrar"><i class="fa fa-star"></i><?php _e( 'Featured Jobs!', 'agrg' ); ?></span>
 
-						<div id="owl-demo" class="owl-carousel owl-theme featured-items">
+						<div id="owl-demo borrar" class="owl-carousel owl-theme featured-items">
 
 							<?php foreach($wpjobus_jobs as $job) {
 
@@ -622,12 +622,12 @@ get_header(); ?>
 
 								<div class="full" style="margin-bottom: 0;">
 
-									<input type="text" name="comp_keyword" id="comp_keyword" value="<?php if (!empty($keyword)) { echo $keyword; } ?>" placeholder="<?php _e( 'Type and press enter...', 'agrg' ); ?>" style="margin-bottom: 15px;" >
+									<input type="text" name="comp_keyword" id="comp_keyword" value="<?php if (!empty($keyword)) { echo $keyword; } ?>" placeholder="<?php _e( 'Escribe y presiona enter ...', 'agrg' ); ?>" style="margin-bottom: 15px;" >
 									<div id="search-results"></div>
 
 								</div>
 
-								<div class="full">
+								<div class="full borrar">
 
 									<div class="one_half first" style="margin-bottom: 0;">
 
@@ -693,7 +693,7 @@ get_header(); ?>
 
 							</div>
 
-							<div class="full sidebar-widget-bottom-line">
+							<div class="full sidebar-widget-bottom-line borrar">
 
 								<span class="filters-subtitle"><?php _e( 'Experience', 'agrg' ); ?></span>
 
@@ -751,7 +751,7 @@ get_header(); ?>
 
 							</div>
 
-							<div class="full sidebar-widget-bottom-line">
+							<div class="full sidebar-widget-bottom-line borrar">
 
 								<span class="filters-subtitle"><?php _e( 'Salary', 'agrg' ); ?></span>
 
@@ -767,12 +767,12 @@ get_header(); ?>
 
 								<div class="one_half first">
 
-									<span class="filters-subtitle"><?php _e( 'Job Types', 'agrg' ); ?></span>
+									<span class="filters-subtitle"><?php _e( 'Tipos de prestaciones', 'agrg' ); ?></span>
 
 									<ul class="filters-lists">
 
 										<li class="filters-list-all <?php if(empty($job_type)) { ?>active<?php }?>">
-											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php _e( 'All Types', 'agrg' ); ?>
+											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php _e( 'Todos los tipos', 'agrg' ); ?>
 											<input type="hidden" class="job_presence_type_option" name="job_presence_type_all" value="<?php if(empty($job_type)) { ?>1<?php }?>" />
 										</li>
 
@@ -797,12 +797,12 @@ get_header(); ?>
 
 								<div class="one_half">
 
-									<span class="filters-subtitle"><?php _e( 'Locations', 'agrg' ); ?></span>
+									<span class="filters-subtitle"><?php _e( 'Regiones', 'agrg' ); ?></span>
 
 									<ul class="filters-lists-location">
 
 										<li class="filters-list-location-all <?php if(empty($job_location_search)) { ?>active<?php }?>">
-											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php _e( 'All Locations', 'agrg' ); ?>
+											<i class="fa fa-square-o"></i><i class="fa fa-check-square"></i><?php _e( 'Todas las regiones', 'agrg' ); ?>
 											<input type="hidden" class="company-location-all" name="company_location_all" value="<?php if(empty($job_location_search)) { ?>1<?php } ?>" />
 										</li>
 
@@ -1321,8 +1321,8 @@ get_header(); ?>
 			</div>
 
 			<div class="full">
-				<h1 class="resume-section-title"><i class="fa fa-files-o"></i><?php _e( 'Recent News', 'agrg' ); ?></h1>
-				<h3 class="resume-section-subtitle" style="margin-bottom: 0;"><?php _e( 'These are the latest news from our blog.', 'agrg' ); ?></h3>
+				<h1 class="resume-section-title"><i class="fa fa-files-o"></i><?php _e( 'Tutoriales', 'agrg' ); ?></h1>
+				<h3 class="resume-section-subtitle borrar" style="margin-bottom: 0;"><?php _e( 'These are the latest news from our blog.', 'agrg' ); ?></h3>
 			</div>
 
 			<?php
@@ -1368,7 +1368,7 @@ get_header(); ?>
 
 				<h3 style="float: left; width: 100%; text-align: center; margin: 0;"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
 
-				<div class="full post-meta" style="margin-bottom: 0;">
+				<div class="full post-meta borrar" style="margin-bottom: 0;">
 					<p><i class="fa fa-user" style="margin: 0 10px;"></i><?php the_author_posts_link(); ?><i class="fa fa-clock-o" style="margin: 0 10px;"></i><a href="<?php echo get_month_link(get_the_time('Y'), get_the_time('m')); ?>"><?php the_time('M j, Y') ?></a><i class="fa fa-comment" style="margin: 0 10px;"></i><a href="<?php comments_link(); ?>"><?php $my_comments = get_comments_number( $post->ID ); echo $my_comments; ?></a></p>
 				</div>
 

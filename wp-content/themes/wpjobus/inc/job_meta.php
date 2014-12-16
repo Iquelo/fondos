@@ -270,7 +270,7 @@ Custom Post Meta Boxes
 			<div class="option_item">
 
 				<span class="full">
-						<span class="text">Cover Image</span>
+						<span class="text">Imagen de portada</span>
 
 						<span>
 

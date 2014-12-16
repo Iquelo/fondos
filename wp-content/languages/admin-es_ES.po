@@ -1055,7 +1055,7 @@ msgstr "Tenemos algunos datos que describen el error que se ha producido en tu s
 
 #: wp-admin/includes/class-wp-upgrader.php:2472
 msgid "Your hosting company, support forum volunteers, or a friendly developer may be able to use this information to help you:"
-msgstr "Su empresa de alojamiento, los voluntarios del foro, o un desarrollador pueden utilizar esta información para ayudarte:"
+msgstr "Su Institucion de alojamiento, los voluntarios del foro, o un desarrollador pueden utilizar esta información para ayudarte:"
 
 #: wp-admin/includes/class-wp-upgrader.php:2485
 msgid "Error code: %s"
@@ -2256,7 +2256,7 @@ msgstr ""
 "\n"
 "...o algo así:\n"
 "\n"
-"<blockquote>La empresa XYZ se fundó en 1971 y ha estado ofreciendo \"cosas\" de calidad al público desde entonces. Situada en Madrid, XYZ emplea a más de 2.000 personas y hace todo tipo de cosas sorprendentes para la comunidad de Madrid.</blockquote>\n"
+"<blockquote>La Institucion XYZ se fundó en 1971 y ha estado ofreciendo \"cosas\" de calidad al público desde entonces. Situada en Madrid, XYZ emplea a más de 2.000 personas y hace todo tipo de cosas sorprendentes para la comunidad de Madrid.</blockquote>\n"
 "\n"
 "Si eres nuevo en WordPress deberías ir a <a href=\"%s\">tu escritorio</a> para borrar esta página y crear páginas nuevas con tu propio contenido. ¡Pásalo bien!"
 

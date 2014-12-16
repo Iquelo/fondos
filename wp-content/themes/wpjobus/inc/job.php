@@ -2,16 +2,16 @@
 
 	function post_type_jobs() {
 		$labels = array(
-	    	'name' => _x('Jobs', 'post type general name', 'agrg'),
-	    	'singular_name' => _x('Jobs', 'post type singular name', 'agrg'),
-	    	'add_new' => _x('Add New Job', 'book', 'agrg'),
-	    	'add_new_item' => __('Add New Job', 'agrg'),
-	    	'edit_item' => __('Edit Job', 'agrg'),
-	    	'new_item' => __('New Job', 'agrg'),
-	    	'view_item' => __('View Job', 'agrg'),
-	    	'search_items' => __('Search Jobs', 'agrg'),
-	    	'not_found' =>  __('No Jobs found', 'agrg'),
-	    	'not_found_in_trash' => __('No Jobs found in Trash', 'agrg'), 
+	    	'name' => _x('Instrumentos', 'post type general name', 'agrg'),
+	    	'singular_name' => _x('Instrumentos', 'post type singular name', 'agrg'),
+	    	'add_new' => _x('Crear nuevo instrumento', 'book', 'agrg'),
+	    	'add_new_item' => __('Crear nuevo instrumento', 'agrg'),
+	    	'edit_item' => __('Editar instrumento', 'agrg'),
+	    	'new_item' => __('Nuevo instrumento', 'agrg'),
+	    	'view_item' => __('Ver instrumento', 'agrg'),
+	    	'search_items' => __('Buscar Instrumentos', 'agrg'),
+	    	'not_found' =>  __('No se encontraron instrumentos', 'agrg'),
+	    	'not_found_in_trash' => __('No hay instrumentos found en la papelera', 'agrg'), 
 	    	'parent_item_colon' => ''
 		);		
 		$args = array(

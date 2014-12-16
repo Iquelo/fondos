@@ -2,16 +2,16 @@
 
 	function post_type_company() {
 		$labels = array(
-	    	'name' => _x('Companies', 'post type general name', 'agrg'),
-	    	'singular_name' => _x('Companies', 'post type singular name', 'agrg'),
-	    	'add_new' => _x('Add New Company', 'book', 'agrg'),
-	    	'add_new_item' => __('Add New Company', 'agrg'),
-	    	'edit_item' => __('Edit Company', 'agrg'),
-	    	'new_item' => __('New Company', 'agrg'),
-	    	'view_item' => __('View Company', 'agrg'),
-	    	'search_items' => __('Search Companies', 'agrg'),
-	    	'not_found' =>  __('No Companies found', 'agrg'),
-	    	'not_found_in_trash' => __('No Companies found in Trash', 'agrg'), 
+	    	'name' => _x('Instituciones', 'post type general name', 'agrg'),
+	    	'singular_name' => _x('Instituciones', 'post type singular name', 'agrg'),
+	    	'add_new' => _x('Añadir nueva institución', 'book', 'agrg'),
+	    	'add_new_item' => __('Añadir nueva institución', 'agrg'),
+	    	'edit_item' => __('Editar institución', 'agrg'),
+	    	'new_item' => __('Nueva institución', 'agrg'),
+	    	'view_item' => __('Ver institución', 'agrg'),
+	    	'search_items' => __('Buscar Institucón', 'agrg'),
+	    	'not_found' =>  __('No se encontraron instituciones', 'agrg'),
+	    	'not_found_in_trash' => __('No hay instituciones en la papelera', 'agrg'), 
 	    	'parent_item_colon' => ''
 		);		
 		$args = array(

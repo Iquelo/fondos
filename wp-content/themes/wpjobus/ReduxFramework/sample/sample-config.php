@@ -403,7 +403,7 @@ if (!class_exists('Redux_Framework_sample_config')) {
 
             $this->sections[] = array(
                 'icon' => 'el-icon-file-edit',
-                'title' => __('Resume/Job/Company Settings', 'redux-framework-demo'),
+                'title' => __('Taxonomía', 'redux-framework-demo'),
                 'fields' => array(
 
                     $fields = array(
