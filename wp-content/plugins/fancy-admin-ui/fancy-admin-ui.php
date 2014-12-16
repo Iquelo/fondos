@@ -31,7 +31,7 @@ add_action( 'login_enqueue_scripts', 'fau_login_theme_style' );
 
 // Update Admin Footer
 function fau_swap_footer_admin() {
-  echo 'Custom Admin UI by <a href="http://boborchard.com" target="_blank">Bob Orchard</a> | Powered by <a href="http://wordpress.org" target="_blank">Wordpress</a></p>';
+  echo '';
 }
 add_filter( 'admin_footer_text', 'fau_swap_footer_admin' );
 

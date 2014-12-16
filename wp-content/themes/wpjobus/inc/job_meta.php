@@ -6,10 +6,10 @@ Custom Post Meta Boxes
 
 	add_action('add_meta_boxes', 'register_job_settings');
 	function register_job_settings () {
-		add_meta_box('wpjobus_job_basic_settings', 'Basic Info', 'display_wpjobus_job_basic_settings','job');
-		add_meta_box('wpjobus_job_skills_settings', 'Skills', 'display_wpjobus_job_skills_settings','job');
-		add_meta_box('wpjobus_job_salary_settings', 'Salary & Job Types', 'display_wpjobus_job_salary_settings','job');
-		add_meta_box('wpjobus_job_contact_settings', 'Contact', 'display_wpjobus_job_contact_settings','job');
+		add_meta_box('wpjobus_job_basic_settings', 'Información Básica', 'display_wpjobus_job_basic_settings','job');
+		/* add_meta_box('wpjobus_job_skills_settings', 'Skills', 'display_wpjobus_job_skills_settings','job'); */
+		add_meta_box('wpjobus_job_salary_settings', 'Beneficios', 'display_wpjobus_job_salary_settings','job');
+		add_meta_box('wpjobus_job_contact_settings', 'Contacto', 'display_wpjobus_job_contact_settings','job');
 	}
 
 	function display_wpjobus_job_basic_settings ($post) {
@@ -106,13 +106,13 @@ Custom Post Meta Boxes
 
 			<div class="option_item" style="height: 24px;">
 				
-				<span class='text overall'>Job Title:</span>
+				<span class='text overall'>Nombre:</span>
 
 				<input type='text' id="review-name" class='' name='wpjobus_job_fullname' style="width: 300px; float: left;" value='<?php echo $wpjobus_job_fullname; ?>' placeholder="" />
 				
 			</div>
 
-			<div class="option_item">	
+			<div class="option_item borrar">	
 
 				<div class="full">
 
@@ -136,7 +136,7 @@ Custom Post Meta Boxes
 
 			</div>
 
-			<div class="option_item">	
+			<div class="option_item borrar">	
 
 				<div class="full">
 
@@ -160,7 +160,7 @@ Custom Post Meta Boxes
 
 			</div>
 
-			<div class="option_item">
+			<div class="option_item borrar">
 
 				<div class="full">
 
@@ -186,7 +186,7 @@ Custom Post Meta Boxes
 
 				<div class="full">
 
-					<span class='text overall'>Industry:</span>
+					<span class='text overall'>Tipo de prestación:</span>
 
 					<div style="float: left;">
 						<select name="job_industry" id="job_industry" style="width: 260px; margin-right: 10px;">
@@ -209,7 +209,7 @@ Custom Post Meta Boxes
 
 				<div class="full">
 
-					<span class='text overall'>Location:</span>
+					<span class='text overall'>Región:</span>
 
 					<div style="float: left;">
 						<select name="job_location" id="job_location" style="width: 260px; margin-right: 10px;">
@@ -232,7 +232,7 @@ Custom Post Meta Boxes
 
 				<div class="full">
 
-					<span class='text overall'>Company:</span>
+					<span class='text overall'>Institución</span>
 
 					<div style="float: left;">
 						<select name="job_company" id="job_company" style="width: 260px; margin-right: 10px;">
@@ -261,7 +261,7 @@ Custom Post Meta Boxes
 			<div class="option_item">
 				
 				<span class='full'>	
-					<span class="text">Job Description:</span>
+					<span class="text">Descripción de la prestación:</span>
 					<textarea class="recipe-desc" name="job-about-me" id='job-about-me' cols="70" rows="7" ><?php echo $resume_about_me; ?></textarea>
 				</span>
 				
@@ -278,15 +278,15 @@ Custom Post Meta Boxes
 
 			                <div style="width: 90%; width: -webkit-calc(100% - 120px); width: calc(100% - 120px);  float: left;"><img class="criteria-image" id="your_image_url_img" src="<?php if (!empty($wpjobus_job_cover_image)) echo $wpjobus_job_cover_image; ?>" style="float: left; margin-bottom: 20px;" /> </div>
 			                <input class="criteria-image-url" id="your_image_url" type="text" size="36" name="wpjobus_job_cover_image" style="max-width: 200px; float: left; margin-top: 10px; display: none;" value="<?php if (!empty($wpjobus_job_cover_image)) echo $wpjobus_job_cover_image; ?>" />
-			                <input class="criteria-image-button-remove button" id="wpjobus_job_cover_image" type="button" style="max-width: 140px; float: left; margin-top: 10px; margin-left: 112px;" value="Remove" /> </br>
-			                <input class="criteria-image-button button" id="your_image_url_button" type="button" style="max-width: 140px; float: left; margin-top: 10px; display: none;" value="Upload Image" /> </br>
+			                <input class="criteria-image-button-remove button" id="wpjobus_job_cover_image" type="button" style="max-width: 140px; float: left; margin-top: 10px; margin-left: 112px;" value="Borrar" /> </br>
+			                <input class="criteria-image-button button" id="your_image_url_button" type="button" style="max-width: 140px; float: left; margin-top: 10px; display: none;" value="Subir imagen" /> </br>
 
 			            <?php } else { ?>
 
 			                <div style="width: 90%; width: -webkit-calc(100% - 120px); width: calc(100% - 120px);  float: left;"><img class="criteria-image" id="your_image_url_img" src="<?php if (!empty($wpjobus_job_cover_image)) echo $wpjobus_job_cover_image; ?>" style="float: left; margin-bottom: 20px;" /> </div>
 			                <input class="criteria-image-url" id="your_image_url<?php echo $i; ?>2" type="text" size="36" name="wpjobus_job_cover_image" style="max-width: 200px; float: left; margin-top: 10px; display: none;" value="<?php if (!empty($wpjobus_job_cover_image)) echo $wpjobus_job_cover_image; ?>" />
 			                <input class="criteria-image-button-remove button" id="your_image_url_button_remove" type="button" style="max-width: 140px; float: left; margin-top: 10px; margin-left: 112px; display: none;" value="Remove" /> </br>
-			                <input class="criteria-image-button button" id="your_image_url_button" type="button" style="max-width: 140px; float: left; margin-top: 10px;" value="Upload Image" /> </br>
+			                <input class="criteria-image-button button" id="your_image_url_button" type="button" style="max-width: 140px; float: left; margin-top: 10px;" value="Subir imagen" /> </br>
 
 			            <?php } ?>
 
@@ -663,7 +663,7 @@ Custom Post Meta Boxes
 
 		<div id='review_options_popup'>
 
-			<div class="option_item" style="height: 24px;">
+			<div class="option_item borrar" style="height: 24px;">
 				
 				<span class='text overall' style="width: 200px;">Remuneration Amount:</span>
 
@@ -671,7 +671,7 @@ Custom Post Meta Boxes
 				
 			</div>
 
-			<div class="option_item">
+			<div class="option_item borrar">
 
 				<div class="full">
 
@@ -698,7 +698,7 @@ Custom Post Meta Boxes
 
 				<div class="full">
 
-					<span class='text overall' style="width: 200px;">Job Type:</span>
+					<span class='text overall' style="width: 200px;">Categoria:</span>
 
 					<div style="float: left;">
 						<select name="wpjobus_job_type" id="wpjobus_job_type" style="width: 260px;">
@@ -724,24 +724,24 @@ Custom Post Meta Boxes
 				
 				<div class="option_item" id="<?php echo $i; ?>">
 					
-					<span class='text'>Benefit <?php echo ($i+1); ?></span>
+					<span class='text'>Beneficio <?php echo ($i+1); ?></span>
 
 					<div class="full" style="margin-top: 20px;">
 
-						<span class='text'>Benefit Name</span>
+						<span class='text'>Título</span>
 						<input type='text' id='wpjobus_job_benefits[<?php echo $i; ?>][0]' name='wpjobus_job_benefits[<?php echo $i; ?>][0]' value='<?php if (!empty($wpjobus_job_benefits[$i][0])) echo $wpjobus_job_benefits[$i][0]; ?>' class='criteria_name' placeholder="Title">
 
 					</div>
 
 					<div class="full" style="margin-top: 20px;">
 
-						<span class='text'>Benefit Description</span>
+						<span class='text'>Descripción</span>
 						<textarea class="job-benefit-desc" name="wpjobus_job_benefits[<?php echo $i; ?>][1]" id='wpjobus_job_benefits[<?php echo $i; ?>][1]' cols="70" rows="7" ><?php if (!empty($wpjobus_job_benefits[$i][1])) { echo $wpjobus_job_benefits[$i][1]; } ?></textarea>
 
 					</div>
 
 					
-					<button name="button_del_job_benefit" type="button" class="button-secondary button_del_job_benefit">delete</button>
+					<button name="button_del_job_benefit" type="button" class="button-secondary button_del_job_benefit">Borrar</button>
 					
 				</div>
 				
@@ -755,27 +755,27 @@ Custom Post Meta Boxes
 			<div id="template_job_benefit">
 				
 				<div class="option_item" id="999">
-					<span class='text'>Benefit 999</span>
+					<span class='text'>Beneficio 999</span>
 					<div class="full" style="margin-top: 20px;">
 
-						<span class='text'>Benefit Name</span>
+						<span class='text'>Título</span>
 						<input type='text' id='' name='' value='' class='criteria_name' placeholder="Title">
 
 					</div>
 
 					<div class="full" style="margin-top: 20px;">
 
-						<span class='text'>Benefit Description</span>
+						<span class='text'>Descripción</span>
 						<textarea class="job-benefit-desc" name="" id='' cols="70" rows="7" ></textarea>
 
 					</div>
-					<button name="button_del_job_benefit" type="button" class="button-secondary button_del_job_benefit">delete</button>
+					<button name="button_del_job_benefit" type="button" class="button-secondary button_del_job_benefit">borrar</button>
 				</div>
 
 			</div>
 
 			<div class="option_item">
-				<button type="button" name="submit_add_job_benefit" id='submit_add_job_benefit' value="add" class="button-secondary">Add new benefit</button>
+				<button type="button" name="submit_add_job_benefit" id='submit_add_job_benefit' value="add" class="button-secondary">Añadir nuevo Beneficio</button>
 			</div>
 
 			<br>
@@ -816,7 +816,7 @@ Custom Post Meta Boxes
 
 			<div class="option_item" style="height: 24px;">
 				
-				<span class='text overall'>Address:</span>
+				<span class='text overall'>Dirección:</span>
 
 				<input type='text' id="review-name" class='' name='wpjobus_job_address' style="width: 300px; float: left;" value='<?php echo $wpjobus_job_address; ?>' placeholder="" />
 				
@@ -824,7 +824,7 @@ Custom Post Meta Boxes
 
 			<div class="option_item" style="height: 24px;">
 				
-				<span class='text overall'>Phone number:</span>
+				<span class='text overall'>Teléfono:</span>
 
 				<input type='text' id="review-name" class='' name='wpjobus_job_phone' style="width: 300px; float: left;" value='<?php echo $wpjobus_job_phone; ?>' placeholder="" />
 				
@@ -832,7 +832,7 @@ Custom Post Meta Boxes
 
 			<div class="option_item" style="height: 24px;">
 				
-				<span class='text overall'>Website:</span>
+				<span class='text overall'>Sitio-web:</span>
 
 				<input type='text' id="review-name" class='' name='wpjobus_job_website' style="width: 300px; float: left;" value='<?php echo $wpjobus_job_website; ?>' placeholder="" />
 				
@@ -845,7 +845,7 @@ Custom Post Meta Boxes
 				<input type='text' id="review-name" class='' name='wpjobus_job_email' style="width: 300px; float: left;" value='<?php echo $wpjobus_job_email; ?>' placeholder="" />
 
 				<span style="margin-right: 20px; float: left;">
-					<input type="checkbox" class='' name='wpjobus_job_publish_email' style="width: 10px; margin-right: 5px; float: left; margin-top: 1px;" value='publish_email' placeholder="" <?php if (!empty($wpjobus_job_publish_email)) { ?>checked<?php } ?>/>Publish my email address
+					<input type="checkbox" class='' name='wpjobus_job_publish_email' style="width: 10px; margin-right: 5px; float: left; margin-top: 1px;" value='publish_email' placeholder="" <?php if (!empty($wpjobus_job_publish_email)) { ?>checked<?php } ?>/>Publicar el e-mail
 				</span>
 				
 			</div>
@@ -888,11 +888,11 @@ Custom Post Meta Boxes
 
 			<div class="option_item" style="height: 24px; margin-bottom: 20px;">
 				
-				<span class='text overall' style="width: 170px;">Google Map Address</span>
+				<span class='text overall' style="width: 170px;">Dirección en Google Map</span>
 
 				<input id="address" name="wpjobus_job_googleaddress" type="text" value="<?php echo $wpjobus_job_googleaddress; ?>" style="width: 300px; float: left;">
 
-				<p class="help-block"><?php _e('Start typing an address and select from the dropdown.', 'agrg') ?></p>
+				<p class="help-block"><?php _e('Escribir y seleccionar.', 'agrg') ?></p>
 				
 			</div>
 
@@ -928,7 +928,7 @@ Custom Post Meta Boxes
 									    if (responses && responses.length > 0) {
 									      updateMarkerAddress(responses[0].formatted_address);
 									    } else {
-									      updateMarkerAddress('Cannot determine address at this location.');
+									      updateMarkerAddress('No se encuentra la dirección.');
 									    }
 									  });
 									}
@@ -1034,7 +1034,7 @@ Custom Post Meta Boxes
 
 			<div class="option_item" style="height: 24px;">
 				
-				<span class='text overall'>Latitude</span>
+				<span class='text overall'>Latitud</span>
 
 				<input type="text" id="latitude" name="wpjobus_job_latitude" value="<?php echo $wpjobus_job_latitude; ?>" size="12" maxlength="10" class="form-text required">
 				
@@ -1042,7 +1042,7 @@ Custom Post Meta Boxes
 
 			<div class="option_item" style="height: 24px;">
 				
-				<span class='text overall'>Longitude</span>
+				<span class='text overall'>Longitud</span>
 
 				<input type="text" id="longitude" name="wpjobus_job_longitude" value="<?php echo $wpjobus_job_longitude; ?>" size="12" maxlength="10" class="form-text required">
 				
